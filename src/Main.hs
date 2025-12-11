@@ -427,6 +427,24 @@ dictionaryWord dicNicoSpecialYomi dicPixiv Entry{entryYomi, entryWord} = and
   , not ("SCP-" `T.isPrefixOf` entryWord)
     -- 第1回シンデレラガール選抜総選挙 のような単語は辞典では意味はあってもIME辞書では意味がないので除外
   , isLeft $ parseOnly (char '第' *> many1 digit *> char '回') entryWord
+    -- 定期的に開催されるイベントなども同様の理由で除外
+    -- あまり綺麗ではないもののいい感じの条件とかは思いつかなかったので個別に
+    -- ボーイングも除外対象に入れるべき？
+  , not ("こみっくまーけっと" `T.isPrefixOf` entryYomi
+         && T.all isAscii entryWord)
+  , isLeft $ parseOnly
+    (((asciiCI "KAITO" *> string "お誕生会")
+      <|> string "キセキの世代"
+      <|> asciiCI "KOF"
+      <|> string "コミックマーケット"
+      <|> string "実況パワフルプロ野球"
+      <|> string "にじさんじ甲子園"
+      <|> string "パワプロ"
+      <|> string "マイクラ肝試し"
+      <|> string "マジカルミライ"
+      <|> string "ミクの日"
+      <|> string "雪ミク")
+        *> many1 (space <|> digit <|> char '-') *> endOfInput) entryWord
     -- 1月1日 のような単語はあっても辞書として意味がなく容量を食うだけなので除外
     -- 本当はパーサーコンビネータで真面目に処理したいのですが漢数字や毎月とかの処理が面倒な割に利益が無かったのでやめました
   , not ("月" `T.isInfixOf` entryWord && "日" `T.isSuffixOf` entryWord)
