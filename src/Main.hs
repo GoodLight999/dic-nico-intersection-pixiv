@@ -370,7 +370,7 @@ dictionaryWord dicNicoSpecialYomi dicPixiv Entry{entryYomi, entryWord} = and
     (T.filter isClearHiragana . katakanaToHiragana) entryWord == T.filter isClearHiragana entryYomi
     -- マジで? いま! など読みが4文字以下で単語が感嘆符で終わるやつは除外
     -- 変換で誤爆危険性が高いのと感嘆符をつけ足すだけなので変換する意味がない
-    -- サジェストの役に立つかもしれないので5文字異常は許可します
+    -- サジェストの役に立つかもしれないので5文字以上は許可します
   , not (yomiLength <= 4 && (T.last entryWord == '?' || T.last entryWord == '!'))
     -- ちょw など先頭のひらがな部分だけを読みに含む単語は誤爆危険性が高いため除外
     -- 感嘆符で終わる場合などは作品名のことが多いので除外しません
@@ -380,6 +380,7 @@ dictionaryWord dicNicoSpecialYomi dicPixiv Entry{entryYomi, entryWord} = and
   , not ("あいまいさ" `T.isInfixOf` entryYomi)
   , not ("一覧" `T.isSuffixOf` entryWord)
   , not ("画像集" `T.isSuffixOf` entryWord)
+  , not ("素材リンク" `T.isSuffixOf` entryWord)
     -- 読みがなについて読みがなで言及しているものは特殊な読みであることが多いので除外
   , not ("よみかた" `T.isSuffixOf` entryYomi)
   , not ("よみがな" `T.isSuffixOf` entryYomi)
@@ -429,7 +430,12 @@ dictionaryWord dicNicoSpecialYomi dicPixiv Entry{entryYomi, entryWord} = and
   , isLeft $ parseOnly (char '第' *> many1 digit *> char '回') entryWord
     -- 定期的に開催されるイベントなども同様の理由で除外
     -- あまり綺麗ではないもののいい感じの条件とかは思いつかなかったので個別に
-    -- ボーイングも除外対象に入れるべき？
+    -- notSeriesでの除外桁数を増やすと流れ弾が多すぎる(太鼓の達人の2000シリーズや、年号を含む(シリーズでない)映画やゲームのタイトルなど)
+    -- Asciiのみの短い単語を除外する処理についても同様
+    -- コミケの C\d{3,} 表記には個別に対処。浅学にして短くない単語は知らないが、雑にやるとC4のようにコミケとは全く関係のないものが除外される可能性がある
+    -- KOFは流石に大丈夫だろう
+    -- eBASEBALLパワフルプロ野球\d{4} は2025年時点で2つしかない上に、年号を抜いた単語の登録がないので除外を見送り
+    -- ボーイングも除外対象に入れるべきかもしれない。その場合はコミケと同様の例外処理が必要
   , not ("こみっくまーけっと" `T.isPrefixOf` entryYomi
          && T.all isAscii entryWord)
   , isLeft $ parseOnly
@@ -446,15 +452,17 @@ dictionaryWord dicNicoSpecialYomi dicPixiv Entry{entryYomi, entryWord} = and
       <|> string "雪ミク")
         *> many1 (space <|> digit <|> char '-') *> endOfInput) entryWord
     -- 1月1日 のような単語はあっても辞書として意味がなく容量を食うだけなので除外
-    -- 本当はパーサーコンビネータで真面目に処理したいのですが漢数字や毎月とかの処理が面倒な割に利益が無かったのでやめました
-  , not ("月" `T.isInfixOf` entryWord && "日" `T.isSuffixOf` entryWord)
+    -- 元のコードだと 9月9日はチルノの日 など「～～の日」も除外されていたのでちょっと改良
+    -- 利益が薄いのは確かだが、 月面着陸の日 が除外されていたので、無駄ではないはず。四月一日(わたぬき) が除外されてるのはよく考えたらどうしようもなかった
+  , isLeft $ parseOnly (many1 (digit <|> satisfy (\c -> c `elem` ("一二三四五六七八九十" :: String))) *> string "月" *> many1 (digit <|> satisfy (\c -> c `elem` ("一二三四五六七八九十" :: String))) *> string "日" *> endOfInput) entryWord
     -- 年を示す単語で始まるのは連番記事であることが多いし変換やサジェストの役にも立たないので除外
     -- ただ 3年B組金八先生 などがあるため2桁以上要求する
   , isLeft $ parseOnly (count 2 digit *> many' digit *> char '年') entryWord
     -- 元号も現代のものは除外
+    -- 元年も除くことにしたら 令和元年台風第19号 が除外されてしまったので他にも流れ弾が当たっている可能性はあるが、ちょっと検証したくない
   , isLeft $ parseOnly
     ((string "明治" <|> string "大正" <|> string "昭和" <|> string "平成" <|> string "令和") *>
-     many1 digit *> char '年')
+     (many1 (digit <|> char '元')) *> char '年')
     entryWord
     -- HOT7000系みたいな英数字と数字だけのエントリーは直接打ったほうが速いので除外
   , isLeft $ parseOnly
@@ -482,7 +490,7 @@ mkDicNicoYomiMapNotRedirect dictionaryFiltered =
 -- そもそも除外しなくても良いぐらいのノイズ数です。
 notSeries :: S.HashSet Text -> Entry -> Bool
 notSeries dicWord Entry{entryWord} =
-  -- 長い数字は入力するの面倒なので除外しないようにする
+  -- 長い数字は入力するのが面倒なので除外しないようにする
   case parseOnly ((,) <$> P.takeWhile (not . isDigit) <*> (rational :: Parser Double) <* endOfInput) entryWord of
     Left _          -> True
     Right (base, r) -> not $ base `S.member` dicWord &&
