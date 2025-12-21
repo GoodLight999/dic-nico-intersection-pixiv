@@ -1,5 +1,10 @@
-### 注釈
-フォークして、GitHub Actionsで毎週日曜日の午前3時(JST)に自動実行して、ファイルを生成することを目指しています。
+# 注釈
+フォークして、GitHub Actionsで毎週日曜日の午前3時(JST)に自動実行して、ファイルを生成します。
+最新版のファイルは以下から常に入手できます。
+[最新版：dic-nico-intersection-pixiv-google.txtx(https://github.com/GoodLight999/dic-nico-intersection-pixiv/raw/refs/heads/master/public/dic-nico-intersection-pixiv-g
+
+以下は、開発者の方の説明文をそのまま載せています。
+ダウンロードリンクは、ncaq様のオリジナルのものですので、
 
 ---
 
