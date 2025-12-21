@@ -1,0 +1,37 @@
+name: Keep Alive
+
+on:
+  # 毎月1日の午前0時(JST)に実行
+  schedule:
+    - cron: '0 15 1 * *'  # UTC 1日15時 = JST 2日0時
+  # 手動実行も可能
+  workflow_dispatch:
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Create keepalive timestamp
+        run: |
+          mkdir -p .github
+          echo "Keep-Alive Timestamp" > .github/KEEPALIVE
+          echo "=====================" >> .github/KEEPALIVE
+          echo "Last execution: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> .github/KEEPALIVE
+          echo "Run number: ${{ github.run_number }}" >> .github/KEEPALIVE
+          echo "" >> .github/KEEPALIVE
+          echo "This file is automatically updated monthly to prevent" >> .github/KEEPALIVE
+          echo "GitHub Actions from disabling scheduled workflows." >> .github/KEEPALIVE
+      
+      - name: Commit and push keepalive
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .github/KEEPALIVE
+          git commit -m "chore: monthly keep-alive commit [skip ci]"
+          git push
