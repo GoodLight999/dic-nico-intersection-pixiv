@@ -1,12 +1,12 @@
 # 注釈
 
-ncaq様からフォークして、GitHub Actionsで毎週日曜日の午前3時(JST)に自動実行して、ファイルを生成するようにしました。
+ncaq様からフォークして、GitHub Actionsで毎週日曜日の午前3時(JST)に自動実行して、ファイルを生成・更新するようにしました。
 
-**最新版のファイルは以下から常に入手できます。**
+生成される**最新版のファイルは以下から常に入手できます。**
 
 https://github.com/GoodLight999/dic-nico-intersection-pixiv/raw/refs/heads/master/public/dic-nico-intersection-pixiv-google.txt
 
-以下は、開発者ncaq様の説明文です。
+以下は、開発者ncaq様による説明文です。
 
 ---
 
