@@ -1,0 +1,85 @@
+name: Update Dictionary
+
+on:
+  # 毎週日曜日の午前3時(JST)に自動実行
+  schedule:
+    - cron: '0 18 * * 6'  # UTC土曜18時 = JST日曜3時
+  # 手動実行も可能
+  workflow_dispatch:
+  # 初回テスト用
+  push:
+    branches:
+      - master
+
+jobs:
+  update-dictionary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120  # 最大2時間
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Haskell
+        uses: haskell-actions/setup@v2
+        with:
+          ghc-version: '9.4.8'
+          enable-stack: true
+          stack-version: 'latest'
+      
+      - name: Cache Stack dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.stack
+            .stack-work
+          key: ${{ runner.os }}-stack-${{ hashFiles('stack.yaml.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-stack-
+      
+      - name: Cache dictionary data
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: ${{ runner.os }}-cache-${{ github.run_number }}
+          restore-keys: |
+            ${{ runner.os }}-cache-
+      
+      - name: Build project
+        run: |
+          stack setup
+          stack build --copy-bins --local-bin-path .
+      
+      - name: Run dictionary generation
+        run: |
+          mkdir -p cache
+          mkdir -p public
+          stack exec dic-nico-intersection-pixiv
+      
+      - name: Check if dictionary was updated
+        id: check_changes
+        run: |
+          git add public/dic-nico-intersection-pixiv-google.txt
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/dic-nico-intersection-pixiv-google.txt
+          git commit -m "Auto-update dictionary $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
+      
+      - name: Upload dictionary as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dictionary-${{ github.run_number }}
+          path: public/dic-nico-intersection-pixiv-google.txt
+          retention-days: 30
