@@ -89,6 +89,7 @@ getDictionary = do
       -- 順番がバラバラになるので、読み/単語の優先度で最終的にソートします。
       -- また最後にリストの評価を並列で行うことで速度向上を狙います。
       dictionarySorted = L.sortOn entryYomi (L.sortOn entryWord dicNotMisAndLink) `using` parList rseq
+  when (null dictionarySorted) $ error "辞書エントリーが空になりました: 入力データやフィルタ条件を確認してください"
   return dictionarySorted
 
 -- | 生成日を含めたこのデータの情報を表示します。
@@ -112,16 +113,25 @@ getDicNico = do
   let path = "cache/jp-nicovideo-dic"
   exist <- doesFileExist path
   if exist
-    then B.readFile path >>= decodeIO
+    then do
+    dic <- B.readFile path >>= decodeIO
+    if S.null dic
+      then fetchDic
+      else return dic
     else do
-    Just doc <-
-      scrapeURL
-      "https://dic.nicovideo.jp/m/a/a"
-      (texts $ "div" @: [hasClass "st-box_contents"] // "table" // "tr" // "td" // "a")
-    let chars = map T.head $ filter (\t -> T.length t == 1) doc
-    dic <- mconcat <$> mapConcurrently getDicNicoTitle chars
-    B.writeFile path $ encode dic
-    return dic
+    fetchDic
+  where
+    fetchDic = do
+      Just doc <-
+        scrapeURL
+        "https://dic.nicovideo.jp/m/a/a"
+        (texts $ "div" @: [hasClass "st-box_contents"] // "table" // "tr" // "td" // "a")
+      let chars = map T.head $ filter (\t -> T.length t == 1) doc
+      when (null chars) $ error "ニコニコ大百科の単語一覧が空でした: https://dic.nicovideo.jp/m/a/a"
+      dic <- mconcat <$> mapConcurrently getDicNicoTitle chars
+      when (S.null dic) $ error "ニコニコ大百科の単語一覧が空でした: https://dic.nicovideo.jp/m/a/a"
+      B.writeFile path $ encode dic
+      return dic
 
 -- | [「ア」から始まる50音順単語記事タイトル表示 - ニコニコ大百科](https://dic.nicovideo.jp/m/yp/a/%E3%82%A2)
 -- のような記事からページャを辿って再帰的にデータを取得します。
@@ -190,15 +200,25 @@ getDicPixiv = do
   let path = "cache/net-pixiv-dic"
   exist <- doesFileExist path
   if exist
-    then B.readFile path >>= decodeIO
+    then do
+    dic <- B.readFile path >>= decodeIO
+    if S.null dic
+      then fetchDic
+      else return dic
     else do
-    Just sitemaps <- scrapeURL "https://dic.pixiv.net/sitemap.xml" (texts "loc")
-    pageURLs <- join . catMaybes <$> (\sitemap -> scrapeURL sitemap (texts "loc")) `mapM` sitemaps
-    let dic = S.fromList $
-          map (toFuzzy . normalizeWord . convert . urlDecode True . convert) $
-          mapMaybe (T.stripPrefix "https://dic.pixiv.net/a/") pageURLs
-    B.writeFile path $ encode dic
-    return dic
+    fetchDic
+  where
+    fetchDic = do
+      Just sitemaps <- scrapeURL "https://dic.pixiv.net/sitemap.xml" (texts "loc")
+      when (null sitemaps) $ error "Pixiv百科事典のsitemapが空でした: https://dic.pixiv.net/sitemap.xml"
+      pageURLs <- join . catMaybes <$> (\sitemap -> scrapeURL sitemap (texts "loc")) `mapM` sitemaps
+      when (null pageURLs) $ error "Pixiv百科事典の記事URL一覧が空でした: https://dic.pixiv.net/sitemap.xml"
+      let dic = S.fromList $
+            map (toFuzzy . normalizeWord . convert . urlDecode True . convert) $
+            mapMaybe (T.stripPrefix "https://dic.pixiv.net/a/") pageURLs
+      when (S.null dic) $ error "Pixiv百科事典の単語一覧が空でした: https://dic.pixiv.net/sitemap.xml"
+      B.writeFile path $ encode dic
+      return dic
 
 -- | 一致しているかで判定を行う箇所が多数存在するのでなるべく正規化します。
 normalizeWord :: Text -> Text
