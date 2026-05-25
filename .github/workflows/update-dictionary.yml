@@ -55,10 +55,25 @@ jobs:
           mkdir -p cache
           mkdir -p public
 
-          echo "--- probe nico index ---"
-          curl -fsSL -A "Mozilla/5.0" "https://dic.nicovideo.jp/m/a/a" -o /tmp/nico-index.html
-          wc -c /tmp/nico-index.html
-          grep -oE 'href="[^"]+"|class="[^"]+"|<title>[^<]+' /tmp/nico-index.html | head -n 80 || true
+          echo "--- probe nico urls ---"
+          for ua_name in desktop mobile; do
+            if [ "$ua_name" = desktop ]; then
+              ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+            else
+              ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+            fi
+            for url in \
+              "https://dic.nicovideo.jp/m/a/a" \
+              "https://dic.nicovideo.jp/m/yp/a/%E3%82%A2" \
+              "https://dic.nicovideo.jp/a/%E3%82%A2" \
+              "http://dic.nicovideo.jp/m/a/a"; do
+              echo "--- ${ua_name} ${url} ---"
+              code=$(curl -L -sS -A "$ua" -H 'Accept-Language: ja-JP,ja;q=0.9' -o /tmp/nico-probe.html -w '%{http_code}' "$url" || true)
+              echo "http_code=${code}"
+              wc -c /tmp/nico-probe.html || true
+              grep -oE 'href="[^"]+"|class="[^"]+"|<title>[^<]+' /tmp/nico-probe.html | head -n 40 || true
+            done
+          done
 
           echo "--- probe pixiv sitemap ---"
           curl -fsSL -A "Mozilla/5.0" "https://dic.pixiv.net/sitemap.xml" -o /tmp/pixiv-sitemap.xml
