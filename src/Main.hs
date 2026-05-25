@@ -127,9 +127,9 @@ getDicNico = do
         "https://dic.nicovideo.jp/m/a/a"
         (texts $ "div" @: [hasClass "st-box_contents"] // "table" // "tr" // "td" // "a")
       let chars = map T.head $ filter (\t -> T.length t == 1) doc
-      when (null chars) $ error "ニコニコ大百科の単語一覧が空でした: https://dic.nicovideo.jp/m/a/a"
+      when (null chars) $ error "ニコニコ大百科の単語文字リストが空でした: https://dic.nicovideo.jp/m/a/a"
       dic <- mconcat <$> mapConcurrently getDicNicoTitle chars
-      when (S.null dic) $ error "ニコニコ大百科の単語一覧が空でした: https://dic.nicovideo.jp/m/a/a"
+      when (S.null dic) $ error "ニコニコ大百科の単語取得結果が空でした: https://dic.nicovideo.jp/m/a/a"
       B.writeFile path $ encode dic
       return dic
 
