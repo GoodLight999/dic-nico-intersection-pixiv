@@ -122,10 +122,11 @@ getDicNico = do
     fetchDic
   where
     fetchDic = do
-      Just doc <-
+      mDoc <-
         scrapeURL
         "https://dic.nicovideo.jp/m/a/a"
         (texts $ "div" @: [hasClass "st-box_contents"] // "table" // "tr" // "td" // "a")
+      doc <- maybe (error "ニコニコ大百科の単語文字一覧が取得できませんでした: https://dic.nicovideo.jp/m/a/a") return mDoc
       let chars = map T.head $ filter (\t -> T.length t == 1) doc
       when (null chars) $ error "ニコニコ大百科の単語文字リストが空でした: https://dic.nicovideo.jp/m/a/a"
       dic <- mconcat <$> mapConcurrently getDicNicoTitle chars
@@ -188,7 +189,8 @@ getDicNicoSpecialYomi = do
   if exist
     then B.readFile path >>= decodeIO
     else do
-    Just liTexts <- scrapeURL "https://dic.nicovideo.jp/id/4652210" (texts $ "div" @: [hasClass "article"] // "ul" // "li")
+    mLiTexts <- scrapeURL "https://dic.nicovideo.jp/id/4652210" (texts $ "div" @: [hasClass "article"] // "ul" // "li")
+    liTexts <- maybe (error "ニコニコ大百科の読み違い一覧が取得できませんでした: https://dic.nicovideo.jp/id/4652210") return mLiTexts
     let dic = S.fromList $ normalizeWord . T.takeWhile (/= '（') <$> liTexts
     B.writeFile path $ encode dic
     return dic
@@ -209,7 +211,8 @@ getDicPixiv = do
     fetchDic
   where
     fetchDic = do
-      Just sitemaps <- scrapeURL "https://dic.pixiv.net/sitemap.xml" (texts "loc")
+      mSitemaps <- scrapeURL "https://dic.pixiv.net/sitemap.xml" (texts "loc")
+      sitemaps <- maybe (error "Pixiv百科事典のsitemapが取得できませんでした: https://dic.pixiv.net/sitemap.xml") return mSitemaps
       when (null sitemaps) $ error "Pixiv百科事典のsitemapが空でした: https://dic.pixiv.net/sitemap.xml"
       pageURLs <- join . catMaybes <$> (\sitemap -> scrapeURL sitemap (texts "loc")) `mapM` sitemaps
       when (null pageURLs) $ error "Pixiv百科事典の記事URL一覧が空でした: https://dic.pixiv.net/sitemap.xml"
