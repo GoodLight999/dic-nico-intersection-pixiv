@@ -19,8 +19,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Haskell
         uses: haskell-actions/setup@v2
@@ -56,7 +54,20 @@ jobs:
         run: |
           mkdir -p cache
           mkdir -p public
+
+          # actions/cache の restore-keys で、過去に生成された空の辞書キャッシュが復元されることがある。
+          # 空キャッシュをそのまま読むと、ヘッダだけの辞書が正常成果物としてコミットされてしまうため、
+          # 明らかに小さすぎるキャッシュファイルは破損扱いで削除して再取得させる。
+          find cache -type f -size -1024c -print -delete || true
+
           stack exec dic-nico-intersection-pixiv
+
+          entry_count=$(grep -Ev '^(#|[[:space:]]*$)' public/dic-nico-intersection-pixiv-google.txt | wc -l)
+          if [ "$entry_count" -eq 0 ]; then
+            echo "Dictionary generation produced no entries. Refusing to commit a header-only dictionary." >&2
+            exit 1
+          fi
+          echo "Generated ${entry_count} dictionary entries."
       
       - name: Check if dictionary was updated
         id: check_changes
