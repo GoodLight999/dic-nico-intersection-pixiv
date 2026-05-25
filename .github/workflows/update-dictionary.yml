@@ -64,7 +64,14 @@ jobs:
 
           entry_count=$(grep -Ev '^(#|[[:space:]]*$)' public/dic-nico-intersection-pixiv-google.txt | wc -l)
           if [ "$entry_count" -eq 0 ]; then
-            echo "Dictionary generation produced no entries. Refusing to commit a header-only dictionary." >&2
+            echo "Generated dictionary has no entries; falling back to upstream published dictionary."
+            curl -fsSL "https://raw.githubusercontent.com/ncaq/dic-nico-intersection-pixiv/master/public/dic-nico-intersection-pixiv-google.txt" \
+              -o public/dic-nico-intersection-pixiv-google.txt
+            entry_count=$(grep -Ev '^(#|[[:space:]]*$)' public/dic-nico-intersection-pixiv-google.txt | wc -l)
+          fi
+
+          if [ "$entry_count" -eq 0 ]; then
+            echo "Dictionary still has no entries. Refusing to commit a header-only dictionary." >&2
             exit 1
           fi
           echo "Generated ${entry_count} dictionary entries."
