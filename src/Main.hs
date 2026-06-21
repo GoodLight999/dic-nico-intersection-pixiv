@@ -109,19 +109,36 @@ getDicInfo = do
 -- から単語と読み一覧を取得します。
 getDicNico :: IO (S.HashSet Entry)
 getDicNico = do
-  let path = "cache/jp-nicovideo-dic"
-  exist <- doesFileExist path
-  if exist
-    then B.readFile path >>= decodeIO
+  rawExist <- doesFileExist "public/nico-raw.txt"
+  if rawExist
+    then do
+      content <- T.readFile "public/nico-raw.txt"
+      let entries = mapMaybe parseNicoRawLine (T.lines content)
+      return $ S.fromList entries
     else do
-    Just doc <-
-      scrapeURL
-      "https://dic.nicovideo.jp/m/a/a"
-      (texts $ "div" @: [hasClass "st-box_contents"] // "table" // "tr" // "td" // "a")
-    let chars = map T.head $ filter (\t -> T.length t == 1) doc
-    dic <- mconcat <$> mapConcurrently getDicNicoTitle chars
-    B.writeFile path $ encode dic
-    return dic
+      let path = "cache/jp-nicovideo-dic"
+      exist <- doesFileExist path
+      if exist
+        then B.readFile path >>= decodeIO
+        else do
+        Just doc <-
+          scrapeURL
+          "https://dic.nicovideo.jp/m/a/a"
+          (texts $ "div" @: [hasClass "st-box_contents"] // "table" // "tr" // "td" // "a")
+        let chars = map T.head $ filter (\t -> T.length t == 1) doc
+        dic <- mconcat <$> mapConcurrently getDicNicoTitle chars
+        B.writeFile path $ encode dic
+        return dic
+
+-- | 生データの行を解析してEntryにします。
+parseNicoRawLine :: Text -> Maybe Entry
+parseNicoRawLine line = case T.splitOn "\t" line of
+  [word, yomi, redir] -> Just Entry
+    { entryWord = normalizeWord word
+    , entryYomi = normalizeWord yomi
+    , entryRedirect = redir == "1"
+    }
+  _ -> Nothing
 
 -- | [「ア」から始まる50音順単語記事タイトル表示 - ニコニコ大百科](https://dic.nicovideo.jp/m/yp/a/%E3%82%A2)
 -- のような記事からページャを辿って再帰的にデータを取得します。
@@ -173,32 +190,44 @@ backoffLimitRetryPolicy = fullJitterBackoff (1 * 1000) <> limitRetries 10
 -- 実は取得が雑で"概要"とかも入ってしまっていますが、最終的に除外されるので実害がないので放置しています。
 getDicNicoSpecialYomi :: IO (S.HashSet Text)
 getDicNicoSpecialYomi = do
-  let path = "cache/jp-nicovideo-dic-id-4652210"
-  exist <- doesFileExist path
-  if exist
-    then B.readFile path >>= decodeIO
+  rawExist <- doesFileExist "public/nico-special-yomi.txt"
+  if rawExist
+    then do
+      content <- T.readFile "public/nico-special-yomi.txt"
+      return $ S.fromList (map normalizeWord (T.lines content))
     else do
-    Just liTexts <- scrapeURL "https://dic.nicovideo.jp/id/4652210" (texts $ "div" @: [hasClass "article"] // "ul" // "li")
-    let dic = S.fromList $ normalizeWord . T.takeWhile (/= '（') <$> liTexts
-    B.writeFile path $ encode dic
-    return dic
+      let path = "cache/jp-nicovideo-dic-id-4652210"
+      exist <- doesFileExist path
+      if exist
+        then B.readFile path >>= decodeIO
+        else do
+        Just liTexts <- scrapeURL "https://dic.nicovideo.jp/id/4652210" (texts $ "div" @: [hasClass "article"] // "ul" // "li")
+        let dic = S.fromList $ normalizeWord . T.takeWhile (/= '（') <$> liTexts
+        B.writeFile path $ encode dic
+        return dic
 
 -- | Pixiv百科時点のサイトマップから記事一覧データを取得します。
 -- toFuzzyによって量子化が行われています。
 getDicPixiv :: IO (S.HashSet Text)
 getDicPixiv = do
-  let path = "cache/net-pixiv-dic"
-  exist <- doesFileExist path
-  if exist
-    then B.readFile path >>= decodeIO
+  rawExist <- doesFileExist "public/pixiv-raw.txt"
+  if rawExist
+    then do
+      content <- T.readFile "public/pixiv-raw.txt"
+      return $ S.fromList (map (toFuzzy . normalizeWord) (T.lines content))
     else do
-    Just sitemaps <- scrapeURL "https://dic.pixiv.net/sitemap.xml" (texts "loc")
-    pageURLs <- join . catMaybes <$> (\sitemap -> scrapeURL sitemap (texts "loc")) `mapM` sitemaps
-    let dic = S.fromList $
-          map (toFuzzy . normalizeWord . convert . urlDecode True . convert) $
-          mapMaybe (T.stripPrefix "https://dic.pixiv.net/a/") pageURLs
-    B.writeFile path $ encode dic
-    return dic
+      let path = "cache/net-pixiv-dic"
+      exist <- doesFileExist path
+      if exist
+        then B.readFile path >>= decodeIO
+        else do
+        Just sitemaps <- scrapeURL "https://dic.pixiv.net/sitemap.xml" (texts "loc")
+        pageURLs <- join . catMaybes <$> (\sitemap -> scrapeURL sitemap (texts "loc")) `mapM` sitemaps
+        let dic = S.fromList $
+              map (toFuzzy . normalizeWord . convert . urlDecode True . convert) $
+              mapMaybe (T.stripPrefix "https://dic.pixiv.net/a/") pageURLs
+        B.writeFile path $ encode dic
+        return dic
 
 -- | 一致しているかで判定を行う箇所が多数存在するのでなるべく正規化します。
 normalizeWord :: Text -> Text

@@ -1,10 +1,11 @@
 name: Update Dictionary
 
 on:
-  # 毎週日曜日の午前3時(JST)に自動実行
-  schedule:
-    - cron: '0 18 * * 6'  # UTC土曜18時 = JST日曜3時
-  # 手動実行も可能
+  push:
+    paths:
+      - 'public/nico-raw.txt'
+      - 'public/pixiv-raw.txt'
+      - 'public/nico-special-yomi.txt'
   workflow_dispatch:
 
 permissions:
@@ -16,10 +17,8 @@ concurrency:
 
 jobs:
   update-dictionary:
-    # GitHub-hosted runners are blocked by dic.nicovideo.jp and dic.pixiv.net.
-    # Use a self-hosted Linux runner from a network where both sites are reachable.
-    runs-on: [self-hosted, Linux, X64]
-    timeout-minutes: 120
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -51,10 +50,7 @@ jobs:
         run: |
           set -euo pipefail
           rm -rf cache
-          mkdir -p cache public
-
-          curl -fsSL -A "Mozilla/5.0" "https://dic.nicovideo.jp/m/a/a" >/dev/null
-          curl -fsSL -A "Mozilla/5.0" "https://dic.pixiv.net/sitemap.xml" >/dev/null
+          mkdir -p public
 
           stack exec dic-nico-intersection-pixiv
 
