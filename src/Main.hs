@@ -135,7 +135,7 @@ parseNicoRawLine :: Text -> Maybe Entry
 parseNicoRawLine line = case T.splitOn "\t" line of
   [word, yomi, redir] -> Just Entry
     { entryWord = normalizeWord word
-    , entryYomi = normalizeWord yomi
+    , entryYomi = normalizeWord (katakanaToHiragana yomi)
     , entryRedirect = redir == "1"
     }
   _ -> Nothing

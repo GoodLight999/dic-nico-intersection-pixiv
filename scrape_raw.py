@@ -57,6 +57,16 @@ def fetch_url(url, retries=5):
 
 # ----------------- Nico Nico Pedia Scraper -----------------
 
+def katakana_to_hiragana(text):
+    result = []
+    for c in text:
+        code = ord(c)
+        if 0x30A1 <= code <= 0x30F6:
+            result.append(chr(code - 0x60))
+        else:
+            result.append(c)
+    return "".join(result)
+
 CHARS = ["ア", "イ", "ウ", "エ", "オ", "カ", "キ", "ク", "ケ", "コ",
          "サ", "シ", "ス", "セ", "ソ", "タ", "チ", "ツ", "テ", "ト",
          "ナ", "ニ", "ヌ", "ネ", "ノ", "ハ", "ヒ", "フ", "ヘ", "ホ",
@@ -153,7 +163,8 @@ def scrape_nico():
     
     with open("public/nico-raw.txt", "w", encoding="utf-8") as f:
         for (word, yomi), redir in sorted(unique_entries.items()):
-            f.write(f"{word}\t{yomi}\t{redir}\n")
+            yomi_hiragana = katakana_to_hiragana(yomi)
+            f.write(f"{word}\t{yomi_hiragana}\t{redir}\n")
     log("Wrote public/nico-raw.txt")
 
 def scrape_nico_special_yomi():
