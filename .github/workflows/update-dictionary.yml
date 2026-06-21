@@ -2,8 +2,10 @@ name: Update Dictionary
 
 on:
   push:
-    branches:
-      - master
+    paths:
+      - 'public/nico-raw.txt'
+      - 'public/pixiv-raw.txt'
+      - 'public/nico-special-yomi.txt'
   workflow_dispatch:
 
 permissions:
