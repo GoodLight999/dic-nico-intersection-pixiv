@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-06-25T12:02:25+0000
+# createdAt: 2026-06-28T05:33:34+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -610,6 +610,7 @@
 あいびー	アイビー	固有名詞	nico-pixiv
 あいびーしーいわてほうそう	IBC岩手放送	固有名詞	nico-pixiv
 あいびーすてーくす	アイビーステークス	固有名詞	nico-pixiv
+あいびーりーぐ	アイビー・リーグ	固有名詞	nico-pixiv
 あいぴー	あいぴー	固有名詞	nico-pixiv
 あいぴーあどれす	IPアドレス	固有名詞	nico-pixiv
 あいぴーえすさいぼう	iPS細胞	固有名詞	nico-pixiv
@@ -9979,6 +9980,7 @@
 いんてんす	インテンス	固有名詞	nico-pixiv
 いんてーく	インテーク	固有名詞	nico-pixiv
 いんでぃあ	India	アルファベット	nico-pixiv
+いんでぃあなしゅう	インディアナ州	固有名詞	nico-pixiv
 いんでぃあん	Indian	アルファベット	nico-pixiv
 いんでぃあん	インディアン	固有名詞	nico-pixiv
 いんでぃあんざ	インディアン座	固有名詞	nico-pixiv
@@ -16822,6 +16824,7 @@
 おくら	オクラ	固有名詞	nico-pixiv
 おくらいり	お蔵入り	固有名詞	nico-pixiv
 おくらほま	オクラホマ	固有名詞	nico-pixiv
+おくらほましゅう	オクラホマ州	固有名詞	nico-pixiv
 おくらほまみきさー	オクラホマミキサー	固有名詞	nico-pixiv
 おくりばんと	送りバント	固有名詞	nico-pixiv
 おくりび	送り火	固有名詞	nico-pixiv
@@ -23736,7 +23739,9 @@
 かんざきゆういちろう	神崎ユウイチロウ	固有名詞	nico-pixiv
 かんざきらんこ	神崎蘭子	固有名詞	nico-pixiv
 かんざきらんこえばんじぇりすと	神崎蘭子エバンジェリスト	固有名詞	nico-pixiv
+かんざす	カンザス	固有名詞	nico-pixiv
 かんざすしてぃろいやるず	カンザスシティ・ロイヤルズ	固有名詞	nico-pixiv
+かんざすしゅう	カンザス州	固有名詞	nico-pixiv
 かんし	鉗子	固有名詞	nico-pixiv
 かんししゃかい	監視社会	固有名詞	nico-pixiv
 かんしゃ	感謝	固有名詞	nico-pixiv
@@ -30255,6 +30260,7 @@
 くつざわりょうじ	沓澤亮治	固有名詞	nico-pixiv
 くつした	靴下	固有名詞	nico-pixiv
 くつしたにゃんこ	靴下にゃんこ	固有名詞	nico-pixiv
+くつしたぬげた	クツシタヌゲタ	固有名詞	nico-pixiv
 くつなしおり	忽那汐里	固有名詞	nico-pixiv
 くつひも	靴紐	固有名詞	nico-pixiv
 くつみがき	靴磨き	固有名詞	nico-pixiv
@@ -36384,6 +36390,7 @@
 こねこのぱやぱや	子猫のパヤパヤ	固有名詞	nico-pixiv
 こねしま	コネシマ	固有名詞	nico-pixiv
 こねた	小ネタ	固有名詞	nico-pixiv
+こねちかっとしゅう	コネチカット州	固有名詞	nico-pixiv
 このあおぞらにやくそくを	この青空に約束を―	固有名詞	nico-pixiv
 このあとめちゃくちゃしりーず	このあと滅茶苦茶シリーズ	固有名詞	nico-pixiv
 このあとめちゃくちゃしりーず	この後滅茶苦茶シリーズ	固有名詞	nico-pixiv
@@ -39265,6 +39272,7 @@
 さうす	south	アルファベット	nico-pixiv
 さうす	さうす	固有名詞	nico-pixiv
 さうすあふりか	South Africa	アルファベット	nico-pixiv
+さうすかろらいなしゅう	サウスカロライナ州	固有名詞	nico-pixiv
 さうすだこた	サウスダコタ	固有名詞	nico-pixiv
 さうすのーすすとーりー	South North Story	アルファベット	nico-pixiv
 さうすばにんぐ	サウス・バニング	固有名詞	nico-pixiv
@@ -51413,6 +51421,7 @@
 すてぃっち	スティッチ	固有名詞	nico-pixiv
 すてぃるいんらぶ	スティルインラブ	固有名詞	nico-pixiv
 すてぃるうぇいくすざでぃーぷ	Still Wakes the Deep	アルファベット	nico-pixiv
+すてぃるねすむーぶめんと	Stillness≒Movement	固有名詞	nico-pixiv
 すてぃるらぶ	Still Love	アルファベット	nico-pixiv
 すてぃれっと	スティレット	固有名詞	nico-pixiv
 すてぃんがー	スティンガー	固有名詞	nico-pixiv
@@ -63070,6 +63079,7 @@
 つくよみちゃん	つくよみちゃん	固有名詞	nico-pixiv
 つくよみむーんふぇいす	月詠-moon phase-	固有名詞	nico-pixiv
 つくよみむーんふぇいず	月詠 -moon phase-	固有名詞	nico-pixiv
+つくりたいおんなとたべたいおんな	作りたい女と食べたい女	固有名詞	nico-pixiv
 つくーる	ツクール	固有名詞	nico-pixiv
 つくーるのひ	ツクールの日	固有名詞	nico-pixiv
 つぐながももこ	嗣永桃子	固有名詞	nico-pixiv
@@ -70013,6 +70023,7 @@
 どばうぃ	ドバウィ	固有名詞	nico-pixiv
 どばしかつゆき	土橋勝征	固有名詞	nico-pixiv
 どばしまさゆき	土橋正幸	固有名詞	nico-pixiv
+どぱがき	ドパガキ	固有名詞	nico-pixiv
 どひさねひら	土肥実平	固有名詞	nico-pixiv
 どひどいで	ドヒドイデ	固有名詞	nico-pixiv
 どびゅっしー	ドビュッシー	固有名詞	nico-pixiv
@@ -70712,6 +70723,7 @@
 どんばぎ	ドンバギ	固有名詞	nico-pixiv
 どんぱち	首領蜂	固有名詞	nico-pixiv
 どんぱちますたー	ドンパチマスター	固有名詞	nico-pixiv
+どんぱっち	怒んパッチ	固有名詞	nico-pixiv
 どんぱっち	首領パッチ	固有名詞	nico-pixiv
 どんぱっちそーど	ドンパッチソード	固有名詞	nico-pixiv
 どんぱん	どんぱん	固有名詞	nico-pixiv
@@ -70770,6 +70782,7 @@
 どーはのひげき	ドーハの悲劇	固有名詞	nico-pixiv
 どーばーかいきょう	ドーバー海峡	固有名詞	nico-pixiv
 どーぱみん	ドーパミン	固有名詞	nico-pixiv
+どーぱみんちゅうどくのがき	ドーパミン中毒のガキ	固有名詞	nico-pixiv
 どーぱんと	ドーパント	固有名詞	nico-pixiv
 どーぱんとめもり	ドーパントメモリ	固有名詞	nico-pixiv
 どーぴんぐ	ドーピング	固有名詞	nico-pixiv
@@ -76349,6 +76362,9 @@
 のーざんふぁーむ	ノーザンファーム	固有名詞	nico-pixiv
 のーす	NORTH	アルファベット	nico-pixiv
 のーす	ノース	固有名詞	nico-pixiv
+のーすかろらいな	ノースカロライナ	固有名詞	nico-pixiv
+のーすかろらいなしゅう	ノースカロライナ州	固有名詞	nico-pixiv
+のーすきゃろらいな	ノースキャロライナ	固有名詞	nico-pixiv
 のーすさたん	ノースサタン	固有名詞	nico-pixiv
 のーすひるず	ノースヒルズ	固有名詞	nico-pixiv
 のーすふらいと	ノースフライト	固有名詞	nico-pixiv
@@ -89084,6 +89100,7 @@
 ぶるーまりー	ブルー・マリー	固有名詞	nico-pixiv
 ぶるーまん	ブルーマン	固有名詞	nico-pixiv
 ぶるーみんぐくろーばー	blooming clover	アルファベット	nico-pixiv
+ぶるーみんぐさいん	blooming sign	アルファベット	nico-pixiv
 ぶるーみんぐすたー	Blooming Star	アルファベット	nico-pixiv
 ぶるーみんぐでいず	Blooming Days	アルファベット	nico-pixiv
 ぶるーみんふぃーりんぐ	bloomin' feeling	アルファベット	nico-pixiv
@@ -93769,6 +93786,7 @@
 ぽけっともんすたーりばーすと	ポケットモンスターReBurst	固有名詞	nico-pixiv
 ぽけっともんすたーわい	ポケットモンスターY	固有名詞	nico-pixiv
 ぽけとる	ポケとる	固有名詞	nico-pixiv
+ぽけとれ	ポケトレ	固有名詞	nico-pixiv
 ぽけなが	ポケナガ	固有名詞	nico-pixiv
 ぽけぱるれ	ポケパルレ	固有名詞	nico-pixiv
 ぽけぱーく	ポケパーク	固有名詞	nico-pixiv
@@ -103014,6 +103032,7 @@
 もにたーかん	モニター艦	固有名詞	nico-pixiv
 もにゅめんと	モニュメント	固有名詞	nico-pixiv
 もの	もの	固有名詞	nico-pixiv
+もの	モノ	固有名詞	nico-pixiv
 もの	物	固有名詞	nico-pixiv
 もの	者	固有名詞	nico-pixiv
 ものあい	モノアイ	固有名詞	nico-pixiv
@@ -110717,6 +110736,8 @@
 るいざぐろすほろうぃっつしょうくいず	ルイザ・グロス・ホロウィッツ賞クイズ	固有名詞	nico-pixiv
 るいじ	ルイジ	固有名詞	nico-pixiv
 るいじ	類似	固有名詞	nico-pixiv
+るいじあな	ルイジアナ	固有名詞	nico-pixiv
+るいじあなしゅう	ルイジアナ州	固有名詞	nico-pixiv
 るいじゅうよんせい	ルイ14世	固有名詞	nico-pixiv
 るいじゅうろくせい	ルイ16世	固有名詞	nico-pixiv
 るいじょう	累乗	固有名詞	nico-pixiv
