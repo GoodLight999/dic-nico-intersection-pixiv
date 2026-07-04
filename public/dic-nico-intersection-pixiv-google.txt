@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-07-04T04:42:14+0000
+# createdAt: 2026-07-04T14:03:41+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -5771,6 +5771,7 @@
 あれんでーるおうこく	アレンデール王国	固有名詞	nico-pixiv
 あれんびーびあずりー	アレンビー・ビアズリー	固有名詞	nico-pixiv
 あれーあやくたえすと	ALEA JACTA EST	アルファベット	nico-pixiv
+あろいす	アロイス	固有名詞	nico-pixiv
 あろいすとらんしー	アロイス・トランシー	固有名詞	nico-pixiv
 あろうず	アロウズ	固有名詞	nico-pixiv
 あろえ	あろえ	固有名詞	nico-pixiv
@@ -54710,6 +54711,7 @@
 せとひろゆき	瀬戸弘幸	固有名詞	nico-pixiv
 せとみやこ	瀬戸美夜子	固有名詞	nico-pixiv
 せとももこ	瀬戸桃子	固有名詞	nico-pixiv
+せどな	セドナ	固有名詞	nico-pixiv
 せどりっく	セドリック	固有名詞	nico-pixiv
 せどりっくえいぎょうしゃ	セドリック営業車	固有名詞	nico-pixiv
 せどわんちぇく	セド・ワンチェク	固有名詞	nico-pixiv
@@ -86671,6 +86673,7 @@
 ふぃーるどおぶびゅー	FIELD OF VIEW	アルファベット	nico-pixiv
 ふぃーるどおんみー	FIELD ON ME	アルファベット	nico-pixiv
 ふぃーるどすまっしゅ	フィールドスマッシュ	固有名詞	nico-pixiv
+ふぃーるどはうざーせぶんてぃ	FH70	アルファベット	nico-pixiv
 ふぃーろたん	フィーロ	固有名詞	nico-pixiv
 ふぃーろぷろしぇんつぉ	フィーロ・プロシェンツォ	固有名詞	nico-pixiv
 ふいうち	ふいうち	固有名詞	nico-pixiv
