@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-07-04T14:03:41+0000
+# createdAt: 2026-07-05T09:25:40+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -17783,6 +17783,7 @@
 おとめ	漢女	固有名詞	nico-pixiv
 おとめ	音女	固有名詞	nico-pixiv
 おとめいと	オトメイト	固有名詞	nico-pixiv
+おとめかいじゅうきゃらめりぜ	乙女怪獣キャラメリゼ	固有名詞	nico-pixiv
 おとめかいぼう	乙女解剖	固有名詞	nico-pixiv
 おとめげー	乙女ゲー	固有名詞	nico-pixiv
 おとめげーむ	乙女ゲーム	固有名詞	nico-pixiv
@@ -20636,7 +20637,7 @@
 かごしまほうそう	鹿児島放送	固有名詞	nico-pixiv
 かごしまほんせん	鹿児島本線	固有名詞	nico-pixiv
 かごしまゆないてっどえふしー	鹿児島ユナイテッドFC	固有名詞	nico-pixiv
-かごしまよみうりてれび	鹿児島讀賣テレビ	固有名詞	nico-pixiv
+かごしまよみうりてれび	鹿児島読売テレビ	固有名詞	nico-pixiv
 かごしまらーめん	鹿児島ラーメン	固有名詞	nico-pixiv
 かごはらえき	籠原駅	固有名詞	nico-pixiv
 かごめ	かごめ	固有名詞	nico-pixiv
@@ -22729,6 +22730,7 @@
 かめんらいだーおーが	仮面ライダーオーガ	固有名詞	nico-pixiv
 かめんらいだーおーず	仮面ライダーOOO	固有名詞	nico-pixiv
 かめんらいだーおーず	仮面ライダーオーズ	固有名詞	nico-pixiv
+かめんらいだーおーず	仮面ライダーオーズ/OOO	固有名詞	nico-pixiv
 かめんらいだーおーでぃん	仮面ライダーオーディン	固有名詞	nico-pixiv
 かめんらいだーおーまじおう	仮面ライダーオーマジオウ	固有名詞	nico-pixiv
 かめんらいだーかいざ	仮面ライダー913	固有名詞	nico-pixiv
@@ -37290,6 +37292,7 @@
 こもり	コモリ	固有名詞	nico-pixiv
 こもり	小森	固有名詞	nico-pixiv
 こもりうた	子守唄	固有名詞	nico-pixiv
+こもりかの	小森香乃	固有名詞	nico-pixiv
 こもりきり	小森霧	固有名詞	nico-pixiv
 こもりさんはことわれない	小森さんは断れない!	固有名詞	nico-pixiv
 こもりざめ	コモリザメ	固有名詞	nico-pixiv
@@ -63610,6 +63613,7 @@
 つくもかずき	九十九一希	固有名詞	nico-pixiv
 つくもかずま	九十九一馬	固有名詞	nico-pixiv
 つくもがみかします	つくもがみ貸します	固有名詞	nico-pixiv
+つくもしおん	九十九シオン	固有名詞	nico-pixiv
 つくもしまい	九十九姉妹	固有名詞	nico-pixiv
 つくもたん	つくもたん	固有名詞	nico-pixiv
 つくものまんげつ	九十九の満月	固有名詞	nico-pixiv
@@ -93460,6 +93464,7 @@
 ほわいとあるばむ	ホワイトアルバム	固有名詞	nico-pixiv
 ほわいとあろー	ホワイトアロー	固有名詞	nico-pixiv
 ほわいとうぃんど	ホワイトウィンド	固有名詞	nico-pixiv
+ほわいとういんど	ホワイトウインド	固有名詞	nico-pixiv
 ほわいとからー	ホワイトカラー	固有名詞	nico-pixiv
 ほわいとかる	WhiteCUL	アルファベット	nico-pixiv
 ほわいときゃんばす	ホワイトキャンバス	固有名詞	nico-pixiv
@@ -114098,6 +114103,7 @@
 ろりこむ	LOLI.COM	アルファベット	nico-pixiv
 ろりこん	ロリコン	固有名詞	nico-pixiv
 ろりこんかっこがち	ロリコンカッコガチ	固有名詞	nico-pixiv
+ろりこんこん	ロリコンコン	固有名詞	nico-pixiv
 ろりこんだいぶ	ロリコンダイブ	固有名詞	nico-pixiv
 ろりこんほいほい	ロリコンホイホイ	固有名詞	nico-pixiv
 ろりごえ	ロリ声	固有名詞	nico-pixiv
