@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-07-08T12:01:52+0000
+# createdAt: 2026-07-09T11:30:20+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -9017,6 +9017,7 @@
 いぬようせつまん	犬溶接マン	固有名詞	nico-pixiv
 いぬわかあかね	犬若あかね	固有名詞	nico-pixiv
 いぬわかなずな	犬若なずな	固有名詞	nico-pixiv
+いぬー	イヌー	固有名詞	nico-pixiv
 いぬーじょん	イヌージョン	固有名詞	nico-pixiv
 いぬーぴー	イヌーピー	固有名詞	nico-pixiv
 いね	イネ	固有名詞	nico-pixiv
@@ -23479,6 +23480,7 @@
 かろう	家老	固有名詞	nico-pixiv
 かろうし	過労死	固有名詞	nico-pixiv
 かろす	カロス	固有名詞	nico-pixiv
+かろすずかん	カロス図鑑	固有名詞	nico-pixiv
 かろすちほう	カロス地方	固有名詞	nico-pixiv
 かろっぞ	カロッゾ	固有名詞	nico-pixiv
 かろっぞろな	カロッゾ・ロナ	固有名詞	nico-pixiv
@@ -31183,6 +31185,7 @@
 くりす	クリス	固有名詞	nico-pixiv
 くりす	栗栖	固有名詞	nico-pixiv
 くりすえす	Kris S.	アルファベット	nico-pixiv
+くりすえす	クリスエス	固有名詞	nico-pixiv
 くりすかなめ	久里須かなめ	固有名詞	nico-pixiv
 くりすここね	栗栖ここね	固有名詞	nico-pixiv
 くりすこすた	クリス・コスタ	固有名詞	nico-pixiv
@@ -64319,6 +64322,7 @@
 てぃむ	ティム	固有名詞	nico-pixiv
 てぃむうぇいくふぃーるど	ティム・ウェイクフィールド	固有名詞	nico-pixiv
 てぃむかりー	ティム・カリー	固有名詞	nico-pixiv
+てぃむくっく	ティム・クック	固有名詞	nico-pixiv
 てぃむばーとん	ティム・バートン	固有名詞	nico-pixiv
 てぃむりんすかむ	ティム・リンスカム	固有名詞	nico-pixiv
 てぃもしぇんこ	ティモシェンコ	固有名詞	nico-pixiv
@@ -93915,6 +93919,7 @@
 ぼうけんいくさーすりー	冒険!イクサー3	固有名詞	nico-pixiv
 ぼうけんえれきてとう	冒険エレキテ島	固有名詞	nico-pixiv
 ぼうけんおうびぃと	冒険王ビィト	固有名詞	nico-pixiv
+ぼうけんかえりおっとのせんねんものがたり	冒険家エリオットの千年物語	固有名詞	nico-pixiv
 ぼうけんかのひ	冒険家の日	固有名詞	nico-pixiv
 ぼうけんきかくきょく	冒険企画局	固有名詞	nico-pixiv
 ぼうけんしゃじぇいく	冒険者ジェイク	固有名詞	nico-pixiv
@@ -103090,6 +103095,7 @@
 めっさーらでぃのふぁうすとじゅぴたー	メッサーラ・ディノファウスト・ジュピター	固有名詞	nico-pixiv
 めっし	メッシ	固有名詞	nico-pixiv
 めっせがお	メッセ顔	固有名詞	nico-pixiv
+めっせさんおー	メッセサンオー	固有名詞	nico-pixiv
 めっせーじ	message	アルファベット	nico-pixiv
 めっせーじ	メッセージ	固有名詞	nico-pixiv
 めっせーじです	メ…ッセージ……で…す…	固有名詞	nico-pixiv
@@ -108441,6 +108447,7 @@
 よしひこ	よしひこ	固有名詞	nico-pixiv
 よしひこ	ヨシヒコ	固有名詞	nico-pixiv
 よしひめ	義姫	固有名詞	nico-pixiv
+よしひろむねゆき	吉弘統幸	固有名詞	nico-pixiv
 よしふ	ヨシフ	固有名詞	nico-pixiv
 よしふおじさん	ヨシフおじさん	固有名詞	nico-pixiv
 よしふすたーりん	ヨシフ・スターリン	固有名詞	nico-pixiv
