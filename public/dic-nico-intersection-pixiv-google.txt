@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-07-14T11:09:48+0000
+# createdAt: 2026-07-14T12:27:14+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -26111,6 +26111,7 @@
 きずあと	痕	固有名詞	nico-pixiv
 きずぐすり	きずぐすり	固有名詞	nico-pixiv
 きずぐすり	キズぐすり	固有名詞	nico-pixiv
+きずぐちとほうたい	傷口と包帯	固有名詞	nico-pixiv
 きずだらけせいじょよりほうふくをこめて	傷だらけ聖女より報復をこめて	固有名詞	nico-pixiv
 きずだらけのじんせい	傷だらけの仁清	固有名詞	nico-pixiv
 きずつけないわらい	傷つけない笑い	固有名詞	nico-pixiv
