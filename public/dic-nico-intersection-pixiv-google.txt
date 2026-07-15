@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-07-14T12:27:14+0000
+# createdAt: 2026-07-15T09:25:18+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -447,6 +447,7 @@
 あいどぅるますたー	アイドゥルマスター	固有名詞	nico-pixiv
 あいどす	Eidos	アルファベット	nico-pixiv
 あいどら	アイドラ	固有名詞	nico-pixiv
+あいどらんく	アイドランク	固有名詞	nico-pixiv
 あいどりずむ	アイドリズム	固有名詞	nico-pixiv
 あいどりっしゅせぶん	IDOLiSH7	アルファベット	nico-pixiv
 あいどりっしゅせぶん	アイドリッシュセブン	固有名詞	nico-pixiv
@@ -455,6 +456,7 @@
 あいどる	idol	アルファベット	nico-pixiv
 あいどる	あいどる	固有名詞	nico-pixiv
 あいどる	アイドル	固有名詞	nico-pixiv
+あいどるあいどるすとーりー	IDOL×IDOL STORY!	固有名詞	nico-pixiv
 あいどるおたく	アイドルオタク	固有名詞	nico-pixiv
 あいどるかれっじ	アイドルカレッジ	固有名詞	nico-pixiv
 あいどるがくねん	アイドル学年	固有名詞	nico-pixiv
@@ -10674,6 +10676,7 @@
 ういす	ウイス	固有名詞	nico-pixiv
 ういすきー	ウイスキー	固有名詞	nico-pixiv
 ういすきーがおすきでしょ	ウイスキーが、お好きでしょ	固有名詞	nico-pixiv
+ういすきーせんそう	ウイスキー戦争	固有名詞	nico-pixiv
 ういすぴーうっず	ウイスピーウッズ	固有名詞	nico-pixiv
 ういだーいんぜりー	ウイダーinゼリー	固有名詞	nico-pixiv
 ういっく	whick	アルファベット	nico-pixiv
@@ -15440,6 +15443,7 @@
 えーでるわいす	エーデルワイス	固有名詞	nico-pixiv
 えーでるわいすしょう	エーデルワイス賞	固有名詞	nico-pixiv
 えーなんすか	えー!何すか!?	固有名詞	nico-pixiv
+えーねいしょん	a-nation	アルファベット	nico-pixiv
 えーびーえっくすわい	ABXY	アルファベット	nico-pixiv
 えーびーがた	AB型	固有名詞	nico-pixiv
 えーびーしーすーぷ	ABCスープ	固有名詞	nico-pixiv
@@ -25063,7 +25067,9 @@
 がらすのぶるーす	ガラスのブルース	固有名詞	nico-pixiv
 がらすぺん	ガラスペン	固有名詞	nico-pixiv
 がらたさらい	ガラタサライ	固有名詞	nico-pixiv
+がらてあ	ガラテア	固有名詞	nico-pixiv
 がらてあのらせん	ガラテアの螺旋	固有名詞	nico-pixiv
+がらていあ	ガラテイア	固有名詞	nico-pixiv
 がらな	ガラナ	固有名詞	nico-pixiv
 がらはげ	ガラハゲ	固有名詞	nico-pixiv
 がらはっどあんどさいえんてぃふぃっくうぃっちぇりー	Ga1ahad and Scientific Witchery	アルファベット	nico-pixiv
@@ -26545,6 +26551,7 @@
 きつねとぱんけーき	きつねとパンケーキ	固有名詞	nico-pixiv
 きつねとぶどう	狐と葡萄	固有名詞	nico-pixiv
 きつねとりょうけん	きつねと猟犬	固有名詞	nico-pixiv
+きつねのかえりみち	狐のかえり道	固有名詞	nico-pixiv
 きつねのこえ	狐狸之声	固有名詞	nico-pixiv
 きつねのよめいり	狐の嫁入り	固有名詞	nico-pixiv
 きつねび	狐火	固有名詞	nico-pixiv
@@ -28927,6 +28934,7 @@
 きんぐまん	キングマン	固有名詞	nico-pixiv
 きんぐまんぼ	キングマンボ	固有名詞	nico-pixiv
 きんぐまんもー	キングマンモー	固有名詞	nico-pixiv
+きんぐらうんど	K.ラウンド	固有名詞	nico-pixiv
 きんぐらー	キングラー	固有名詞	nico-pixiv
 きんぐれお	キングレオ	固有名詞	nico-pixiv
 きんぐれこーど	キングレコード	固有名詞	nico-pixiv
@@ -39097,6 +39105,7 @@
 さいか	Saika	アルファベット	nico-pixiv
 さいか	さいか	固有名詞	nico-pixiv
 さいか	彩華	固有名詞	nico-pixiv
+さいかい	西海	固有名詞	nico-pixiv
 さいかいし	西海市	固有名詞	nico-pixiv
 さいかいじん	サイ怪人	固有名詞	nico-pixiv
 さいかちりゅうじ	槐柳二	固有名詞	nico-pixiv
@@ -52369,6 +52378,7 @@
 すなどけい	砂時計	固有名詞	nico-pixiv
 すなどりねこ	スナドリネコ	固有名詞	nico-pixiv
 すなどりねこさん	スナドリネコさん	固有名詞	nico-pixiv
+すなにすむもの	砂に棲むもの	固有名詞	nico-pixiv
 すなねこ	スナネコ	固有名詞	nico-pixiv
 すなねずみ	スナネズミ	固有名詞	nico-pixiv
 すなのうつわ	砂の器	固有名詞	nico-pixiv
@@ -59330,6 +59340,7 @@
 たふごろく	タフ語録	固有名詞	nico-pixiv
 たふたふ	TOUGH-タフ-	固有名詞	nico-pixiv
 たふたふ	TOUGH―タフ―	固有名詞	nico-pixiv
+たふだいにしょう	TOUGH 第二章	固有名詞	nico-pixiv
 たふぼーい	TOUGH BOY	アルファベット	nico-pixiv
 たふりゅうをつぐおとこ	TOUGH 龍を継ぐ男	固有名詞	nico-pixiv
 たぶきけいじゅ	多蕗桂樹	固有名詞	nico-pixiv
@@ -62105,6 +62116,7 @@
 ちま	ちま	固有名詞	nico-pixiv
 ちま	チマ	固有名詞	nico-pixiv
 ちまき	ちまき	固有名詞	nico-pixiv
+ちまき	粽	固有名詞	nico-pixiv
 ちまちまとうほう	ちまちま東方	固有名詞	nico-pixiv
 ちまつり	血祭り	固有名詞	nico-pixiv
 ちまつりのぶれどらん	血祭のブレドラン	固有名詞	nico-pixiv
@@ -68578,6 +68590,7 @@
 とくなな	トクナナ	固有名詞	nico-pixiv
 とくにしきうちびてい	特二式内火艇	固有名詞	nico-pixiv
 とくにないです	とくにないです	固有名詞	nico-pixiv
+とくのうしょうたろう	得能正太郎	固有名詞	nico-pixiv
 とくひろまさや	徳弘正也	固有名詞	nico-pixiv
 とくぴー	とくP	固有名詞	nico-pixiv
 とくべつかいそく	特別快速	固有名詞	nico-pixiv
@@ -72465,6 +72478,7 @@
 なげきっす	投げキッス	固有名詞	nico-pixiv
 なげきのかべ	嘆きの壁	固有名詞	nico-pixiv
 なげきのせいぼたち	嘆きの聖母たち	固有名詞	nico-pixiv
+なげきのたて	なげきのたて	固有名詞	nico-pixiv
 なげきのてんし	嘆きの天使	固有名詞	nico-pixiv
 なげきのふらくしょん	嘆きのFRACTION	固有名詞	nico-pixiv
 なげきのへいげん	嘆きの平原	固有名詞	nico-pixiv
@@ -80158,6 +80172,7 @@
 はんぶっしつ	反物質	固有名詞	nico-pixiv
 はんぶらび	ハンブラビ	固有名詞	nico-pixiv
 はんぶるく	ハンブルク	固有名詞	nico-pixiv
+はんぶれっだーず	ハンブレッダーズ	固有名詞	nico-pixiv
 はんぶんのつきがのぼるそら	半分の月がのぼる空	固有名詞	nico-pixiv
 はんべい	反米	固有名詞	nico-pixiv
 はんべいほしゅ	反米保守	固有名詞	nico-pixiv
@@ -85930,6 +85945,7 @@
 ぴんくかめお	ピンクカメオ	固有名詞	nico-pixiv
 ぴんくがみ	ピンク髪	固有名詞	nico-pixiv
 ぴんくごーるどぴーち	ピンクゴールドピーチ	固有名詞	nico-pixiv
+ぴんくさろん	ピンクサロン	固有名詞	nico-pixiv
 ぴんくすぅいーつ	ピンクスゥイーツ	固有名詞	nico-pixiv
 ぴんくたーぼ	ピンクターボ	固有名詞	nico-pixiv
 ぴんくだいやもんど	ピンクダイヤモンド	固有名詞	nico-pixiv
@@ -85960,6 +85976,7 @@
 ぴんげいにん	ピン芸人	固有名詞	nico-pixiv
 ぴんこ	ぴん子	固有名詞	nico-pixiv
 ぴんこすてぃっくらぶ	ぴんこすてぃっくLuv	固有名詞	nico-pixiv
+ぴんさろ	ピンサロ	固有名詞	nico-pixiv
 ぴんち	ピンチ	固有名詞	nico-pixiv
 ぴんちけ	ピンチケ	固有名詞	nico-pixiv
 ぴんちひめ	風間堅次	固有名詞	nico-pixiv
@@ -98149,6 +98166,7 @@
 まりおあんどるいーじあーるぴーじーぶらざーしっぷ	マリオ&ルイージRPG ブラザーシップ!	固有名詞	nico-pixiv
 まりおあんどるいーじあーるぴーじーぺーぱーまりおみっくす	マリオ&ルイージRPG ペーパーマリオMIX	固有名詞	nico-pixiv
 まりおあんどるいーじあーるぴーじーわんでらっくす	マリオ&ルイージRPG1 DX	固有名詞	nico-pixiv
+まりおあーるぴーじー	マリオRPG	固有名詞	nico-pixiv
 まりおえいが	マリオ映画	固有名詞	nico-pixiv
 まりおおでっせい	マリオオデッセイ	固有名詞	nico-pixiv
 まりおかーと	Mario Kart	アルファベット	nico-pixiv
@@ -107203,6 +107221,7 @@
 ゆげ	湯気	固有名詞	nico-pixiv
 ゆげつー	ゆげ2	固有名詞	nico-pixiv
 ゆこぴ	ゆこぴ	固有名詞	nico-pixiv
+ゆごすよりのもの	ユゴスよりのもの	固有名詞	nico-pixiv
 ゆさ	遊佐	固有名詞	nico-pixiv
 ゆさえみ	遊佐恵美	固有名詞	nico-pixiv
 ゆさこうじ	遊佐浩二	固有名詞	nico-pixiv
@@ -108918,6 +108937,7 @@
 よわむしぺだる	弱虫ペダル	固有名詞	nico-pixiv
 よわむしもんぶらん	弱虫モンブラン	固有名詞	nico-pixiv
 よわよわせんせい	よわよわ先生	固有名詞	nico-pixiv
+よわらー	ヨワラー	固有名詞	nico-pixiv
 よゐこ	よゐこ	固有名詞	nico-pixiv
 よん	よん	固有名詞	nico-pixiv
 よんきゃく	四脚	固有名詞	nico-pixiv
@@ -112411,6 +112431,7 @@
 るーるきばをうがてよ	RULE ~牙ヲ穿テヨ~	固有名詞	nico-pixiv
 るーるさーてぃふぉー	Rule 34	アルファベット	nico-pixiv
 るーるしっくすてぃすりー	Rule 63	アルファベット	nico-pixiv
+るーるのー	ルールノー	固有名詞	nico-pixiv
 るーるのーかぁどー	ルールノー・カァドー	固有名詞	nico-pixiv
 るーるぶっく	ルールブック	固有名詞	nico-pixiv
 るーるぶっくのもうてんのいってん	ルールブックの盲点の1点	固有名詞	nico-pixiv
