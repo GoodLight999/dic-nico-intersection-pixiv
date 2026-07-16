@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-07-15T09:25:18+0000
+# createdAt: 2026-07-16T12:01:19+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -5553,6 +5553,7 @@
 あるば	アルバ	固有名詞	nico-pixiv
 あるばいたー	アルバイター	固有名詞	nico-pixiv
 あるばいと	アルバイト	固有名詞	nico-pixiv
+あるばかーき	アルバカーキ	固有名詞	nico-pixiv
 あるばこあ	アルバコア	固有名詞	nico-pixiv
 あるばす	アルバス	固有名詞	nico-pixiv
 あるばすだんぶるどあ	アルバス・ダンブルドア	固有名詞	nico-pixiv
@@ -9199,6 +9200,7 @@
 いばる	いばる	固有名詞	nico-pixiv
 いぱくさ	李博士	固有名詞	nico-pixiv
 いびちゃおしむ	イビチャ・オシム	固有名詞	nico-pixiv
+いびってこないぎぼとぎし	いびってこない義母と義姉	固有名詞	nico-pixiv
 いびょんぎゅ	李炳圭	固有名詞	nico-pixiv
 いびる	evil	アルファベット	nico-pixiv
 いびる	イビル	固有名詞	nico-pixiv
@@ -19489,6 +19491,7 @@
 おーらいはーときゃっちぷりきゅあ	Alright!ハートキャッチプリキュア!	固有名詞	nico-pixiv
 おーらちから	オーラ力	固有名詞	nico-pixiv
 おーらばとらー	オーラバトラー	固有名詞	nico-pixiv
+おーらんど	オーランド	固有名詞	nico-pixiv
 おーらんどぶるーむ	オーランド・ブルーム	固有名詞	nico-pixiv
 おーらんどろまん	オーランド・ロマン	固有名詞	nico-pixiv
 おーりす	オーリス	固有名詞	nico-pixiv
@@ -28797,6 +28800,7 @@
 きんかぎょくじょう	金科玉条	固有名詞	nico-pixiv
 きんかくじ	金閣寺	固有名詞	nico-pixiv
 きんかくじのいちまいてんじょう	金閣寺の一枚天井	固有名詞	nico-pixiv
+きんかざん	金華山	固有名詞	nico-pixiv
 きんかむ	金カム	固有名詞	nico-pixiv
 きんかわ	金かわ	固有名詞	nico-pixiv
 きんかん	キンカン	固有名詞	nico-pixiv
@@ -35108,6 +35112,7 @@
 こうかくきどうたい	攻殻機動隊	固有名詞	nico-pixiv
 こうかくきどうたい	甲殻機動隊	固有名詞	nico-pixiv
 こうかくきどうたいごーすといんざしぇる	攻殻機動隊 THE GHOST IN THE SHELL	固有名詞	nico-pixiv
+こうかくきどうたいすたんどあろーんこんぷれっくす	攻殻機動隊 STAND ALONE COMPLEX	固有名詞	nico-pixiv
 こうかくだち	攻殻立ち	固有名詞	nico-pixiv
 こうかくのぱんどら	紅殻のパンドラ	固有名詞	nico-pixiv
 こうかくのれぎおす	鋼殻のレギオス	固有名詞	nico-pixiv
@@ -69363,6 +69368,7 @@
 とよたゔぁんがーど	トヨタ・ヴァンガード	固有名詞	nico-pixiv
 とよだえき	豊田駅	固有名詞	nico-pixiv
 とよだきよし	豊田清	固有名詞	nico-pixiv
+とよだみのる	とよ田みのる	固有名詞	nico-pixiv
 とよだやすみつ	豊田泰光	固有名詞	nico-pixiv
 とよだようへい	豊田陽平	固有名詞	nico-pixiv
 とよだるな	豊田ルナ	固有名詞	nico-pixiv
@@ -101644,6 +101650,7 @@
 むぎゃおー	ムギャオー	固有名詞	nico-pixiv
 むぎらぁ	麦らぁ	固有名詞	nico-pixiv
 むぎわらのいちみ	麦わらの一味	固有名詞	nico-pixiv
+むぎわらのるふぃ	麦わらのルフィ	固有名詞	nico-pixiv
 むぎわらぼうし	麦わら帽子	固有名詞	nico-pixiv
 むく	むく	固有名詞	nico-pixiv
 むく	ムク	固有名詞	nico-pixiv
