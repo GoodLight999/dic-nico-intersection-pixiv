@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-07-16T12:01:19+0000
+# createdAt: 2026-07-16T13:55:20+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -7318,8 +7318,10 @@
 いぐないと	IGNITE	アルファベット	nico-pixiv
 いぐないと	イグナイト	固有名詞	nico-pixiv
 いぐなーつゔぃくたー	イグナーツ=ヴィクター	固有名詞	nico-pixiv
+いぐにしょん	イグニション	固有名詞	nico-pixiv
 いぐにす	イグニス	固有名詞	nico-pixiv
 いぐにっしょん	Ignition	アルファベット	nico-pixiv
+いぐにっしょん	イグニッション	固有名詞	nico-pixiv
 いぐにっしょんぜろ	イグニッションZERO	固有名詞	nico-pixiv
 いぐのーべるしょう	イグノーベル賞	固有名詞	nico-pixiv
 いぐみえき	居組駅	固有名詞	nico-pixiv
@@ -10377,6 +10379,7 @@
 いーすとふぃっしゅすたじお	イーストフィッシュスタジオ	固有名詞	nico-pixiv
 いーすとぷれす	イースト・プレス	固有名詞	nico-pixiv
 いーすな	イースナ	固有名詞	nico-pixiv
+いーすのいだいなるしゅぞく	イースの偉大なる種族	固有名詞	nico-pixiv
 いーすのおおいなるしゅぞく	イースの大いなる種族	固有名詞	nico-pixiv
 いーすふぉーざどーんおぶいーす	イースIV The Dawn of Ys	固有名詞	nico-pixiv
 いーすぽーつ	Eスポーツ	固有名詞	nico-pixiv
@@ -38781,6 +38784,8 @@
 ごるごむ	ゴルゴム	固有名詞	nico-pixiv
 ごるごむのしわざ	ゴルゴムの仕業	固有名詞	nico-pixiv
 ごるごむのしわざだ	ゴルゴムの仕業だ!	固有名詞	nico-pixiv
+ごるごろす	ゴル=ゴロス	固有名詞	nico-pixiv
+ごるごろす	ゴルゴロス	固有名詞	nico-pixiv
 ごるごんぞーら	ゴルゴンゾーラ☆	固有名詞	nico-pixiv
 ごるざ	ゴルザ	固有名詞	nico-pixiv
 ごるし	ゴルシ	固有名詞	nico-pixiv
@@ -44455,6 +44460,7 @@
 しまぶー	しまぶー	固有名詞	nico-pixiv
 しまぼし	シマボシ	固有名詞	nico-pixiv
 しまま	シママ	固有名詞	nico-pixiv
+しままつえき	島松駅	固有名詞	nico-pixiv
 しまみやえいこ	島みやえい子	固有名詞	nico-pixiv
 しまむ	しまむー	固有名詞	nico-pixiv
 しまむら	しまむら	固有名詞	nico-pixiv
@@ -53774,6 +53780,7 @@
 ずんこ	ずん子	固有名詞	nico-pixiv
 ずんずみゅーじっくこれくしょん	ZUN's Music Collection	アルファベット	nico-pixiv
 ずんずんきょうのやぼう	ずんずん教の野望	固有名詞	nico-pixiv
+ずんずんぷろじぇくと	ずんずんPJ	固有名詞	nico-pixiv
 ずんたた	ZUNTATA	アルファベット	nico-pixiv
 ずんだ	ずんだ	固有名詞	nico-pixiv
 ずんだしぇいきんぐ	ずんだシェイキング	固有名詞	nico-pixiv
@@ -57253,6 +57260,7 @@
 ぞんびのあふれたせかいでおれだけがおそわれない	ゾンビのあふれた世界で俺だけが襲われない	固有名詞	nico-pixiv
 ぞんびふぇありー	ゾンビフェアリー	固有名詞	nico-pixiv
 ぞんびむすめ	ゾンビ娘	固有名詞	nico-pixiv
+ぞんびゆー	ゾンビU	固有名詞	nico-pixiv
 ぞんびらんどさが	ゾンビランドサガ	固有名詞	nico-pixiv
 ぞんびらんどさがりべんじ	ゾンビランドサガ リベンジ	固有名詞	nico-pixiv
 ぞんびりべんじ	ゾンビリベンジ	固有名詞	nico-pixiv
@@ -80833,6 +80841,7 @@
 ばすてぃあんしゅゔぁいんしゅたいがー	バスティアン・シュヴァインシュタイガー	固有名詞	nico-pixiv
 ばすてぃおん	Bastion	アルファベット	nico-pixiv
 ばすてい	バス停	固有名詞	nico-pixiv
+ばすていりゅうじょ	バス停留所	固有名詞	nico-pixiv
 ばすてきこんび	ばすてきコンビ	固有名詞	nico-pixiv
 ばすてと	バステト	固有名詞	nico-pixiv
 ばすと	バスト	固有名詞	nico-pixiv
@@ -83280,6 +83289,7 @@
 ひこうしょうじょ	飛行少女	固有名詞	nico-pixiv
 ひこうじょう	飛行場	固有名詞	nico-pixiv
 ひこうじょうき	飛行場姫	固有名詞	nico-pixiv
+ひこうするぽりぷ	飛行するポリプ	固有名詞	nico-pixiv
 ひこうせき	飛行石	固有名詞	nico-pixiv
 ひこうせん	飛行船	固有名詞	nico-pixiv
 ひこうたいぷ	ひこうタイプ	固有名詞	nico-pixiv
@@ -89586,6 +89596,7 @@
 ぶらうんかん	ブラウン管	固有名詞	nico-pixiv
 ぶらうんだすと	browndust	アルファベット	nico-pixiv
 ぶらうんだすと	ブラウンダスト	固有名詞	nico-pixiv
+ぶらうんべす	ブラウン・ベス	固有名詞	nico-pixiv
 ぶらきおうぇーぶ	ブラキオ・ウェーブ	固有名詞	nico-pixiv
 ぶらきおれいどす	ブラキオレイドス	固有名詞	nico-pixiv
 ぶらきでぃおす	ブラキディオス	固有名詞	nico-pixiv
@@ -93121,6 +93132,7 @@
 ほずみゆうや	保住有哉	固有名詞	nico-pixiv
 ほせ	ホセ	固有名詞	nico-pixiv
 ほせあるとぅーべ	ホセ・アルトゥーベ	固有名詞	nico-pixiv
+ほせきはだ	ホセ・キハダ	固有名詞	nico-pixiv
 ほせきゃりおか	ホセ・キャリオカ	固有名詞	nico-pixiv
 ほせふぇるなんです	ホセ・フェルナンデス	固有名詞	nico-pixiv
 ほせろぺす	ホセ・ロペス	固有名詞	nico-pixiv
@@ -96492,6 +96504,7 @@
 まじっくわーど	マジックワード	固有名詞	nico-pixiv
 まじてんし	マジ天使	固有名詞	nico-pixiv
 まじでおこだよあたしまちがってない	マジでぉこだょ?ァたし間違ってなぃ	固有名詞	nico-pixiv
+まじでかんしゃ	マジで感謝!	固有名詞	nico-pixiv
 まじできたない	MJDKTNI	アルファベット	nico-pixiv
 まじでこいするごびょうまえ	MajiでKoiする5秒前	固有名詞	nico-pixiv
 まじでわたしにこいしなさい	真剣で私に恋しなさい!	固有名詞	nico-pixiv
@@ -100052,6 +100065,8 @@
 みつびしじどうしゃこうぎょう	三菱自動車工業	固有名詞	nico-pixiv
 みつびしじゅうこう	三菱重工	固有名詞	nico-pixiv
 みつびしじゅうこうぎょう	三菱重工業	固有名詞	nico-pixiv
+みつびしじーてぃーおー	三菱・GTO	固有名詞	nico-pixiv
+みつびしじーてーおー	三菱GTO	固有名詞	nico-pixiv
 みつびしすたりおん	三菱・スタリオン	固有名詞	nico-pixiv
 みつびしでぃぐにてぃ	三菱・ディグニティ	固有名詞	nico-pixiv
 みつびしでんき	三菱電機	固有名詞	nico-pixiv
@@ -102925,6 +102940,7 @@
 めぐみ	メグミ	固有名詞	nico-pixiv
 めぐみ	恵	固有名詞	nico-pixiv
 めぐみねめぐ	恵音メグ	固有名詞	nico-pixiv
+めぐみのえき	恵み野駅	固有名詞	nico-pixiv
 めぐみもか	恵萌花	固有名詞	nico-pixiv
 めぐみん	めぐみん	固有名詞	nico-pixiv
 めぐめぐふぁいあーえんどれすないと	メグメグ☆ファイアーエンドレスナイト	固有名詞	nico-pixiv
