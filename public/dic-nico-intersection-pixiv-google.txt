@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-08-05T13:55:02+0000
+# createdAt: 2026-08-06T03:56:38+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -7856,6 +7856,7 @@
 いすたんぶーる	イスタンブール	固有名詞	nico-pixiv
 いすとりげーむ	椅子取りゲーム	固有名詞	nico-pixiv
 いすとわーる	イストワール	固有名詞	nico-pixiv
+いすなーん	イスナーン	固有名詞	nico-pixiv
 いすのいだいなるしゅぞく	イスの偉大なる種族	固有名詞	nico-pixiv
 いすのおおいなるしゅぞく	イスの大いなる種族	固有名詞	nico-pixiv
 いすぱにあ	西班牙	固有名詞	nico-pixiv
@@ -24942,6 +24943,7 @@
 がっきゅうおうやまざき	学級王ヤマザキ	固有名詞	nico-pixiv
 がっきゅうほうかい	学級崩壊	固有名詞	nico-pixiv
 がっきー	ガッキー	固有名詞	nico-pixiv
+がっけん	Gakken	アルファベット	nico-pixiv
 がっけん	学研	固有名詞	nico-pixiv
 がっけんとしせん	学研都市線	固有名詞	nico-pixiv
 がっけんならとみがおかえき	学研奈良登美ヶ丘駅	固有名詞	nico-pixiv
@@ -39118,6 +39120,7 @@
 ごーどんふりーまん	ゴードン・フリーマン	固有名詞	nico-pixiv
 ごーねくすと	GO NEXT	アルファベット	nico-pixiv
 ごーはんず	GoHands	アルファベット	nico-pixiv
+ごーばけーしょん	GO VACATION	アルファベット	nico-pixiv
 ごーばすたーず	ゴーバスターズ	固有名詞	nico-pixiv
 ごーばりあん	ゴーバリアン	固有名詞	nico-pixiv
 ごーびよんど	Go Beyond!!	アルファベット	nico-pixiv
@@ -42835,6 +42838,7 @@
 ざばっとまん	ザ・バットマン	固有名詞	nico-pixiv
 ざばば	ザババ	固有名詞	nico-pixiv
 ざばーざーかー	ザ・バーザーカー	固有名詞	nico-pixiv
+ざばーすでい	The Birthday	アルファベット	nico-pixiv
 ざぱす	ThePATH	アルファベット	nico-pixiv
 ざぱんち	ザ・パンチ	固有名詞	nico-pixiv
 ざびあつた	ザビアツタ	固有名詞	nico-pixiv
@@ -49625,6 +49629,7 @@
 じゅすてぃぬしゃふらわーす	ジュスティヌ・シャフラワース	固有名詞	nico-pixiv
 じゅすと	ジュスト	固有名詞	nico-pixiv
 じゅすとべるもんど	ジュスト・ベルモンド	固有名詞	nico-pixiv
+じゅせい	受精	固有名詞	nico-pixiv
 じゅぜっぴーなちゅいんに	ジュゼッピーナ・チュインニ	固有名詞	nico-pixiv
 じゅぜっぺ	ジュゼッペ	固有名詞	nico-pixiv
 じゅぜっぺがりばるでぃ	ジュゼッペ・ガリバルディ	固有名詞	nico-pixiv
@@ -50255,6 +50260,7 @@
 じょんぽーるじょーんず	ジョン・ポール・ジョーンズ	固有名詞	nico-pixiv
 じょんまくれーん	ジョン・マクレーン	固有名詞	nico-pixiv
 じょんまんじろう	ジョン万次郎	固有名詞	nico-pixiv
+じょんめいなーどけいんず	ジョン・メイナード・ケインズ	固有名詞	nico-pixiv
 じょんれのん	ジョン・レノン	固有名詞	nico-pixiv
 じょんろなるどろうえるとーるきん	J・R・R・トールキン	固有名詞	nico-pixiv
 じょゔぁんに	ジョヴァンニ	固有名詞	nico-pixiv
@@ -68415,6 +68421,7 @@
 とうほくいかやっかだいがく	東北医科薬科大学	固有名詞	nico-pixiv
 とうほくいたこ	東北イタコ	固有名詞	nico-pixiv
 とうほくいたこそざいりんく	東北イタコ素材リンク	固有名詞	nico-pixiv
+とうほくえぷそんあくありうむかもすい	東北エプソンアクアリウムかもすい	固有名詞	nico-pixiv
 とうほくかんとうだいしんさい	東北関東大震災	固有名詞	nico-pixiv
 とうほくがくいん	東北学院	固有名詞	nico-pixiv
 とうほくがくいんだいがく	東北学院大学	固有名詞	nico-pixiv
@@ -69415,6 +69422,7 @@
 とみたすずか	富田鈴花	固有名詞	nico-pixiv
 とみたまほ	富田麻帆	固有名詞	nico-pixiv
 とみたみゆ	富田美憂	固有名詞	nico-pixiv
+とみたらぼ	冨田ラボ	固有名詞	nico-pixiv
 とみっくす	TOMIX	アルファベット	nico-pixiv
 とみっくす	トミックス	固有名詞	nico-pixiv
 とみなが	富永	固有名詞	nico-pixiv
@@ -74319,6 +74327,7 @@
 にこにこめどれーしりーず	ニコニコメドレーシリーズ	固有名詞	nico-pixiv
 にこにこもんず	ニコニコ・モンズ	固有名詞	nico-pixiv
 にこにこもんず	ニコニ・コモンズ	固有名詞	nico-pixiv
+にこにこりょう	ニコニコ寮	固有名詞	nico-pixiv
 にこにこれきしせんりゃくげー	ニコニコ歴史戦略ゲー	固有名詞	nico-pixiv
 にこにゅー	ニコニュー	固有名詞	nico-pixiv
 にこにー	にこ兄	固有名詞	nico-pixiv
@@ -81845,6 +81854,7 @@
 ばんだい	財団B	固有名詞	nico-pixiv
 ばんだいさんさーびすえりあ	磐梯山SA	固有名詞	nico-pixiv
 ばんだいさんだいあいどるしりーず	バンダイ三大アイドルシリーズ	固有名詞	nico-pixiv
+ばんだいしてんのうあいどるしりーず	バンダイ四天王アイドルシリーズ	固有名詞	nico-pixiv
 ばんだいすけ	伴大介	固有名詞	nico-pixiv
 ばんだいすぴりっつ	BANDAI SPIRITS	アルファベット	nico-pixiv
 ばんだいすぴりっつ	バンダイスピリッツ	固有名詞	nico-pixiv
@@ -85181,6 +85191,7 @@
 びくたーけん	ビクター犬	固有名詞	nico-pixiv
 びくてぃに	ビクティニ	固有名詞	nico-pixiv
 びくてぃにどうじょう	ビクティニ道場	固有名詞	nico-pixiv
+びくとりあ	ビクトリア	固有名詞	nico-pixiv
 びくとりああざれんか	ビクトリア・アザレンカ	固有名詞	nico-pixiv
 びくとりあかっぷ	ビクトリアカップ	固有名詞	nico-pixiv
 びくとりーの	ビクトリーノ	固有名詞	nico-pixiv
@@ -115919,6 +115930,7 @@
 わんだりんぐしゃどう	ワンダリングシャドウ	固有名詞	nico-pixiv
 わんだりんぐすたー	ワンダリングスター	固有名詞	nico-pixiv
 わんだりんぐどりーむちぇいさー	Wandering Dream Chaser	アルファベット	nico-pixiv
+わんだんす	ワンダンス	固有名詞	nico-pixiv
 わんだゔぃじょん	ワンダヴィジョン	固有名詞	nico-pixiv
 わんだー	wonder	アルファベット	nico-pixiv
 わんだー	ワンダー	固有名詞	nico-pixiv
