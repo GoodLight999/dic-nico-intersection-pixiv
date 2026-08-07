@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-08-06T03:56:38+0000
+# createdAt: 2026-08-07T13:50:30+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -22481,6 +22481,7 @@
 かみきたふたご	上北ふたご	固有名詞	nico-pixiv
 かみきった	髪切った?	固有名詞	nico-pixiv
 かみきみらい	カミキ・ミライ	固有名詞	nico-pixiv
+かみきりむし	カミキリムシ	固有名詞	nico-pixiv
 かみきりゅうのすけ	神木隆之介	固有名詞	nico-pixiv
 かみぎしあかり	神岸あかり	固有名詞	nico-pixiv
 かみくいしきむら	上九一色村	固有名詞	nico-pixiv
@@ -42567,6 +42568,7 @@
 さーふぃす	SURFACE	アルファベット	nico-pixiv
 さーふぃす	サーフィス	固有名詞	nico-pixiv
 さーふぃん	サーフィン	固有名詞	nico-pixiv
+さーふけいぼでぃびるだーたくや	サーフ系ボディビルダー拓也	固有名詞	nico-pixiv
 さーふごー	サーフゴー	固有名詞	nico-pixiv
 さーぶ	SAAB	アルファベット	nico-pixiv
 さーぶ	サーブ	固有名詞	nico-pixiv
@@ -89314,6 +89316,7 @@
 ふれどりかあーゔぃんぐ	フレドリカ・アーヴィング	固有名詞	nico-pixiv
 ふれない	新堂敦士	固有名詞	nico-pixiv
 ふれない	触れない	固有名詞	nico-pixiv
+ふれねみー	frenemy	アルファベット	nico-pixiv
 ふれねみー	フレネミー	固有名詞	nico-pixiv
 ふれふわん	フレフワン	固有名詞	nico-pixiv
 ふれぷり	フレプリ	固有名詞	nico-pixiv
@@ -116378,6 +116381,7 @@
 ゔぃくたーこーるどばーぐ	ヴィクター・コールドバーグ	固有名詞	nico-pixiv
 ゔぃくてぃむ	ViCTiM	アルファベット	nico-pixiv
 ゔぃくとりあ	Victoria	アルファベット	nico-pixiv
+ゔぃくとりあ	ヴィクトリア	固有名詞	nico-pixiv
 ゔぃくとりあじょおう	ヴィクトリア女王	固有名詞	nico-pixiv
 ゔぃくとりあす	ヴィクトリアス	固有名詞	nico-pixiv
 ゔぃくとりあすりー	Victoria 3	アルファベット	nico-pixiv
