@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-08-07T13:50:30+0000
+# createdAt: 2026-08-08T03:08:04+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -65163,7 +65163,7 @@
 てつどうますたー	鉄道M@Ster	固有名詞	nico-pixiv
 てつどうむすめ	鉄道むすめ	固有名詞	nico-pixiv
 てつどうもけい	鉄道模型	固有名詞	nico-pixiv
-てつなべのじゃん	鉄鍋のジャン	固有名詞	nico-pixiv
+てつなべのじゃん	鉄鍋のジャン!	固有名詞	nico-pixiv
 てつねこ	てつ×ねこ	固有名詞	nico-pixiv
 てつねまい	鉄音まい	固有名詞	nico-pixiv
 てつのいさは	テツノイサハ	固有名詞	nico-pixiv
