@@ -1,13 +1,13 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-08-12T05:39:35+0000
+# createdAt: 2026-08-13T03:24:57+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
 
 あぁぁぁんまりだぁぁあぁ	あァァァんまりだァァアァ	固有名詞	nico-pixiv
-あぁーこころがぴょんぴょんするんじゃぁー	あぁ^〜心がぴょんぴょんするんじゃぁ^〜	固有名詞	nico-pixiv
+あぁーこころがぴょんぴょんするんじゃぁー	あぁ^~心がぴょんぴょんするんじゃぁ^~	固有名詞	nico-pixiv
 ああ	ああ	固有名詞	nico-pixiv
 あああ	あああ	固有名詞	nico-pixiv
 ああああ	ああああ	固有名詞	nico-pixiv
@@ -3261,6 +3261,7 @@
 あつしのめいたんてい	あつしの名探偵	固有名詞	nico-pixiv
 あつたじんぐう	熱田神宮	固有名詞	nico-pixiv
 あつとうしろう	厚藤四郎	固有名詞	nico-pixiv
+あつどり	アツドリ	固有名詞	nico-pixiv
 あつひめ	篤姫	固有名詞	nico-pixiv
 あつまれどうぶつのもり	あつまれ どうぶつの森	固有名詞	nico-pixiv
 あつまれふしぎけんきゅうぶ	あつまれ!ふしぎ研究部	固有名詞	nico-pixiv
@@ -108768,6 +108769,7 @@
 よこぜまち	横瀬町	固有名詞	nico-pixiv
 よこた	ヨコタ	固有名詞	nico-pixiv
 よこた	横田	固有名詞	nico-pixiv
+よこたきち	横田基地	固有名詞	nico-pixiv
 よこたさんきち	横田三吉	固有名詞	nico-pixiv
 よこたしんたろう	横田慎太郎	固有名詞	nico-pixiv
 よこたにまさひろ	横谷昌宏	固有名詞	nico-pixiv
