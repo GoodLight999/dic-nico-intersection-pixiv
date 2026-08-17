@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-08-16T11:57:38+0000
+# createdAt: 2026-08-17T13:07:02+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -195,6 +195,7 @@
 あいことばはびー	合言葉はbee!	固有名詞	nico-pixiv
 あいことばふぁいぶ	愛言葉v	固有名詞	nico-pixiv
 あいことばふぉー	愛言葉iv	固有名詞	nico-pixiv
+あいこのくらずむ	iconoclasm	アルファベット	nico-pixiv
 あいこん	icon	アルファベット	nico-pixiv
 あいこん	アイ$コン	固有名詞	nico-pixiv
 あいこん	アイコン	固有名詞	nico-pixiv
@@ -476,6 +477,7 @@
 あいどるせんきみりおんあーまー	アイドル戦記ミリオンアーマー	固有名詞	nico-pixiv
 あいどるせんごくじだい	アイドル戦国時代	固有名詞	nico-pixiv
 あいどるせんしみらくるちゅーんず	アイドル×戦士 ミラクルちゅーんず!	固有名詞	nico-pixiv
+あいどるそんぐ	アイドルソング	固有名詞	nico-pixiv
 あいどるたいむぷりぱら	アイドルタイムプリパラ	固有名詞	nico-pixiv
 あいどるちゃれんじ	アイドルチャレンジ	固有名詞	nico-pixiv
 あいどるてんしようこそようこ	アイドル天使ようこそようこ	固有名詞	nico-pixiv
@@ -1687,6 +1689,7 @@
 あきやすみ	秋休み	固有名詞	nico-pixiv
 あきやともこ	秋谷智子	固有名詞	nico-pixiv
 あきやま	秋山	固有名詞	nico-pixiv
+あきやまうに	あきやまうに	固有名詞	nico-pixiv
 あきやまえき	秋山駅	固有名詞	nico-pixiv
 あきやまおとめ	秋山乙女	固有名詞	nico-pixiv
 あきやまかつひこ	秋山勝彦	固有名詞	nico-pixiv
@@ -10021,6 +10024,7 @@
 いんしょう	印章	固有名詞	nico-pixiv
 いんしょく	飲食	固有名詞	nico-pixiv
 いんしん	陰唇	固有名詞	nico-pixiv
+いんじうむ	インジウム	固有名詞	nico-pixiv
 いんじぇら	インジェラ	固有名詞	nico-pixiv
 いんじゃすてぃす	インジャスティス	固有名詞	nico-pixiv
 いんじゅう	淫獣	固有名詞	nico-pixiv
@@ -13326,6 +13330,7 @@
 えぐぜりか	エグゼリカ	固有名詞	nico-pixiv
 えぐぞぷらいまる	エグゾプライマル	固有名詞	nico-pixiv
 えぐちあいみ	江口愛実	固有名詞	nico-pixiv
+えぐちさんちのじゅんじょうさきゅばす	江口さんちの純情サキュバス	固有名詞	nico-pixiv
 えぐちせーら	江口セーラ	固有名詞	nico-pixiv
 えぐちなこ	江口菜子	固有名詞	nico-pixiv
 えぐちひさし	江口寿史	固有名詞	nico-pixiv
@@ -19594,6 +19599,7 @@
 おーもーいーがー	オーモーイーガー	固有名詞	nico-pixiv
 おーら	オーラ	固有名詞	nico-pixiv
 おーらいはーときゃっちぷりきゅあ	Alright!ハートキャッチプリキュア!	固有名詞	nico-pixiv
+おーらいふじゃぱん	オーライフジャパン	固有名詞	nico-pixiv
 おーらちから	オーラ力	固有名詞	nico-pixiv
 おーらばとらー	オーラバトラー	固有名詞	nico-pixiv
 おーらんど	オーランド	固有名詞	nico-pixiv
@@ -20367,6 +20373,7 @@
 かがやきよまつり	燿城夜祭	固有名詞	nico-pixiv
 かがやくきせつへ	輝く季節へ	固有名詞	nico-pixiv
 かがやくせかいのまほう	輝く世界の魔法	固有名詞	nico-pixiv
+かがやくはりのこびとぞく	輝く針の小人族	固有名詞	nico-pixiv
 かがやくはりのこびとぞくりとるぷりんせす	輝く針の小人族 ~ Little Princess	固有名詞	nico-pixiv
 かがやくはりのこびとぞくりとるぷりんせす	輝く針の小人族~Little Princess	固有名詞	nico-pixiv
 かがやけがーるず	Cagayake!GIRLS	アルファベット	nico-pixiv
@@ -22526,6 +22533,7 @@
 かみさかはるひ	神坂春姫	固有名詞	nico-pixiv
 かみさとかける	上里翔流	固有名詞	nico-pixiv
 かみさとさーびすえりあ	上里SA	固有名詞	nico-pixiv
+かみさびたこせんじょう	神さびた古戦場	固有名詞	nico-pixiv
 かみさびたこせんじょう	神さびた古戦場 ~ Suwa Foughten Field	固有名詞	nico-pixiv
 かみさま	カミさま	固有名詞	nico-pixiv
 かみさま	カミサマ	固有名詞	nico-pixiv
@@ -30215,6 +30223,7 @@
 くえんさん	クエン酸	固有名詞	nico-pixiv
 くえんてぃんたらんてぃーの	クエンティン・タランティーノ	固有名詞	nico-pixiv
 くえーさー	quasar	アルファベット	nico-pixiv
+くぉゔぁでぃす	QuoVadis	アルファベット	nico-pixiv
 くぉゔれーごーどん	クォヴレー・ゴードン	固有名詞	nico-pixiv
 くぉーす	クォース	固有名詞	nico-pixiv
 くぉーつ	クォーツ	固有名詞	nico-pixiv
@@ -30227,6 +30236,7 @@
 くおりてぃ	quality	アルファベット	nico-pixiv
 くおりてぃ	クオリティ	固有名詞	nico-pixiv
 くおりでぃあこーど	クオリディア・コード	固有名詞	nico-pixiv
+くおわでぃす	QUO VADIS	アルファベット	nico-pixiv
 くおん	QUON	アルファベット	nico-pixiv
 くおん	久遠	固有名詞	nico-pixiv
 くおん	九怨	固有名詞	nico-pixiv
@@ -46779,6 +46789,7 @@
 しるゔぁーな	SILVANA	アルファベット	nico-pixiv
 しるゔぃ	シルヴィ	固有名詞	nico-pixiv
 しるゔぃあ	シルヴィア	固有名詞	nico-pixiv
+しるゔぃあーな	シルヴィアーナ	固有名詞	nico-pixiv
 しるゔぃかりえっろ	シルヴィ・カリエッロ	固有名詞	nico-pixiv
 しるゔぇすたーすたろーん	シルヴェスター・スタローン	固有名詞	nico-pixiv
 しれじあ	シレジア	固有名詞	nico-pixiv
@@ -47705,6 +47716,7 @@
 しんぱつじしん	深発地震	固有名詞	nico-pixiv
 しんぱらどくすどらごん	Sin パラドクス・ドラゴン	固有名詞	nico-pixiv
 しんぱん	審判	固有名詞	nico-pixiv
+しんぱん	親藩	固有名詞	nico-pixiv
 しんぱんのかるまこっとん	神判のカルマ コットン	固有名詞	nico-pixiv
 しんぱんのひ	審判の日	固有名詞	nico-pixiv
 しんひかりしんわぱるてなのかがみ	新・光神話 パルテナの鏡	固有名詞	nico-pixiv
@@ -48693,6 +48705,7 @@
 じじいいけめんはげじじい	じじいイケメンハゲじじい	固有名詞	nico-pixiv
 じじつ	事実	固有名詞	nico-pixiv
 じじつうしん	時事通信	固有名詞	nico-pixiv
+じじつうしんしゃ	時事通信社	固有名詞	nico-pixiv
 じじつこん	事実婚	固有名詞	nico-pixiv
 じじつちんれつざい	事実陳列罪	固有名詞	nico-pixiv
 じじつはしょうせつよりきなり	事実は小説より奇なり	固有名詞	nico-pixiv
@@ -52996,6 +53009,7 @@
 すぷりんぐ	spring	アルファベット	nico-pixiv
 すぷりんぐ	スプリング	固有名詞	nico-pixiv
 すぷりんぐうぇぽんなんばーわん	青春兵器ナンバーワン	固有名詞	nico-pixiv
+すぷりんぐおぶどりーむす	spring of dreams	アルファベット	nico-pixiv
 すぷりんぐおぶらいふ	Spring of Life	アルファベット	nico-pixiv
 すぷりんぐすくりーみんぐ	Spring Screaming	アルファベット	nico-pixiv
 すぷりんぐすてーくす	スプリングステークス	固有名詞	nico-pixiv
@@ -57181,6 +57195,7 @@
 そらをみあげるしょうじょのひとみにうつるせかい	空を見上げる少女の瞳に映る世界	固有名詞	nico-pixiv
 そりだす	ソリダス	固有名詞	nico-pixiv
 そりだすすねーく	ソリダス・スネーク	固有名詞	nico-pixiv
+そりっど	ソリッド	固有名詞	nico-pixiv
 そりっどすてーとすかうたー	ソリッドステート・スカウター	固有名詞	nico-pixiv
 そりっどすねーく	ソリッド・スネーク	固有名詞	nico-pixiv
 そりてぃあ	ソリティア	固有名詞	nico-pixiv
@@ -57762,6 +57777,7 @@
 たいと	たいと	固有名詞	nico-pixiv
 たいと	タイト	固有名詞	nico-pixiv
 たいと	帯人	固有名詞	nico-pixiv
+たいとう	台東	固有名詞	nico-pixiv
 たいとうく	台東区	固有名詞	nico-pixiv
 たいとうのういじょう	耐糖能異常	固有名詞	nico-pixiv
 たいとすかーと	タイトスカート	固有名詞	nico-pixiv
@@ -60237,6 +60253,7 @@
 だいあもんどじょーかー	DIAMOND JOKER	アルファベット	nico-pixiv
 だいあもんどでいず	DIAMOND DAYS	アルファベット	nico-pixiv
 だいあらっく	ダイアラック	固有名詞	nico-pixiv
+だいあるこねくてっど	Dial Connected	アルファベット	nico-pixiv
 だいあろーぐ	DIALOGUE+	アルファベット	nico-pixiv
 だいあん	ダイアン	固有名詞	nico-pixiv
 だいあんまーちん	ダイアン・マーチン	固有名詞	nico-pixiv
@@ -62282,6 +62299,7 @@
 ちねんりな	知念里奈	固有名詞	nico-pixiv
 ちの	チノ	固有名詞	nico-pixiv
 ちのあくま	血の悪魔	固有名詞	nico-pixiv
+ちのいろはきいろ	地の色は黄色	固有名詞	nico-pixiv
 ちのうしすう	知能指数	固有名詞	nico-pixiv
 ちのこくいん	血の刻印	固有名詞	nico-pixiv
 ちのし	茅野市	固有名詞	nico-pixiv
@@ -65138,7 +65156,6 @@
 てたのすぱすみん	テタノスパスミン	固有名詞	nico-pixiv
 てたれ	手タレ	固有名詞	nico-pixiv
 てだこうらにしえき	てだこ浦西駅	固有名詞	nico-pixiv
-てだのふぁ	太陽の子	固有名詞	nico-pixiv
 てっかぐや	テッカグヤ	固有名詞	nico-pixiv
 てっかだん	鉄華団	固有名詞	nico-pixiv
 てっかにん	テッカニン	固有名詞	nico-pixiv
@@ -67821,6 +67838,7 @@
 とうきゅうめぐろせん	東急目黒線	固有名詞	nico-pixiv
 とうきゅうろくせんけい	東急6000系	固有名詞	nico-pixiv
 とうきょう	東京	固有名詞	nico-pixiv
+とうきょうあくてぃぶにーつ	東京アクティブNEETs	固有名詞	nico-pixiv
 とうきょうあどべんちゃーらいん	東京アドベンチャーライン	固有名詞	nico-pixiv
 とうきょうあめっしゅ	東京アメッシュ	固有名詞	nico-pixiv
 とうきょうあらーと	東京アラート	固有名詞	nico-pixiv
@@ -69671,6 +69689,7 @@
 とよかわせん	豊川線	固有名詞	nico-pixiv
 とよかわたかひろ	豊川孝弘	固有名詞	nico-pixiv
 とよかわふうか	豊川風花	固有名詞	nico-pixiv
+とよがおかえき	豊ヶ岡駅	固有名詞	nico-pixiv
 とよぐちめぐみ	豊口めぐみ	固有名詞	nico-pixiv
 とよさきあき	豊崎愛生	固有名詞	nico-pixiv
 とよさとえき	豊郷駅	固有名詞	nico-pixiv
@@ -70610,6 +70629,7 @@
 どうしようもないもの	どうしようもないもの	固有名詞	nico-pixiv
 どうしん	道新	固有名詞	nico-pixiv
 どうしんしょうじょとおとなせかい	童心少女と大人世界	固有名詞	nico-pixiv
+どうじぎりやすつなはくらく	童子切安綱 剥落	固有名詞	nico-pixiv
 どうじたはつてろ	同時多発テロ	固有名詞	nico-pixiv
 どうじとひめ	童子と姫	固有名詞	nico-pixiv
 どうじまこうへい	堂島孝平	固有名詞	nico-pixiv
@@ -71526,6 +71546,7 @@
 どりすこーるべるち	ドリスコール・ベルチ	固有名詞	nico-pixiv
 どりすしゅてんだる	ドリス・シュテンダル	固有名詞	nico-pixiv
 どりすぴ	ドリスピ	固有名詞	nico-pixiv
+どりずりーれいん	drizzly rain	アルファベット	nico-pixiv
 どりとらい	ドリトライ	固有名詞	nico-pixiv
 どりどり	ドリドリ	固有名詞	nico-pixiv
 どりふ	ドリフ	固有名詞	nico-pixiv
@@ -80055,6 +80076,7 @@
 はるさめ	春雨	固有名詞	nico-pixiv
 はるさるひ	春猿火	固有名詞	nico-pixiv
 はるさーえいかー	ハルサーエイカー	固有名詞	nico-pixiv
+はるしげ	はるしげ	固有名詞	nico-pixiv
 はるしねーしょん	ハルシネーション	固有名詞	nico-pixiv
 はるしゅたいんかっか	ハルシュタイン閣下	固有名詞	nico-pixiv
 はるじおん	ハルジオン	固有名詞	nico-pixiv
@@ -83161,6 +83183,7 @@
 ぱーそんおぶいんたれすと	person of interest	アルファベット	nico-pixiv
 ぱーそんおぶいんたれすと	パーソン・オブ・インタレスト	固有名詞	nico-pixiv
 ぱーつ	パーツ	固有名詞	nico-pixiv
+ぱーつぃばる	パーツィバル	固有名詞	nico-pixiv
 ぱーてぃ	party	アルファベット	nico-pixiv
 ぱーてぃ	パーティ	固有名詞	nico-pixiv
 ぱーてぃないと	party night	アルファベット	nico-pixiv
@@ -86891,6 +86914,7 @@
 ふぁむふぁんふぁん	ファム・ファン・ファン	固有名詞	nico-pixiv
 ふぁゆいりぃ	ファ・ユイリィ	固有名詞	nico-pixiv
 ふぁら	ファラ	固有名詞	nico-pixiv
+ふぁらうぇい	faraway	アルファベット	nico-pixiv
 ふぁらえるすてっど	ファラ・エルステッド	固有名詞	nico-pixiv
 ふぁらお	ファラオ	固有名詞	nico-pixiv
 ふぁらぐりふぉん	ファラ・グリフォン	固有名詞	nico-pixiv
@@ -90774,6 +90798,7 @@
 ぶんかつつーくーる	分割2クール	固有名詞	nico-pixiv
 ぶんかのひ	文化の日	固有名詞	nico-pixiv
 ぶんかほうそう	文化放送	固有名詞	nico-pixiv
+ぶんかぼうちょう	文化包丁	固有名詞	nico-pixiv
 ぶんがく	文学	固有名詞	nico-pixiv
 ぶんがくしょう	文学賞	固有名詞	nico-pixiv
 ぶんがくしょうじょいんせいん	文学少女インセイン	固有名詞	nico-pixiv
@@ -95163,6 +95188,7 @@
 ぽいずんさわだじゅりー	ポイズン澤田JULIE	固有名詞	nico-pixiv
 ぽいずんぴんく	ポイズンピンク	固有名詞	nico-pixiv
 ぽいずんべりーどーたーず	Poison Berry Daughters	アルファベット	nico-pixiv
+ぽいずんぼでぃ	ポイズンボディ	固有名詞	nico-pixiv
 ぽいずんぼでぃふぉーせいくんどーる	ポイズンボディ ~ Forsaken Doll	固有名詞	nico-pixiv
 ぽいてーろ	ポイテーロ	固有名詞	nico-pixiv
 ぽいはな	ポイハナ	固有名詞	nico-pixiv
@@ -97380,6 +97406,7 @@
 まちだまさのり	町田政則	固有名詞	nico-pixiv
 まちだゆきひこ	町田行彦	固有名詞	nico-pixiv
 まちちゅうか	町中華	固有名詞	nico-pixiv
+まちびとはこず	待チ人ハ来ズ。	固有名詞	nico-pixiv
 まちぶせ	まちぶせ	固有名詞	nico-pixiv
 まちへいこうよどうぶつのもり	街へいこうよ どうぶつの森	固有名詞	nico-pixiv
 まちぼうけのらくりま	待ちぼうけのLacrima	固有名詞	nico-pixiv
@@ -102184,6 +102211,7 @@
 むげんだいぐろうあっぷ	ムゲンダイグロウアップ!	固有名詞	nico-pixiv
 むげんだいな	ムゲンダイナ	固有名詞	nico-pixiv
 むげんだいまっくす	ムゲンダイマックス	固有名詞	nico-pixiv
+むげんだいみゅーたいぷ	夢限大みゅーたいぷ	固有名詞	nico-pixiv
 むげんどらもん	ムゲンドラモン	固有名詞	nico-pixiv
 むげんにほめてくれるはるのそらせんせい	無限にホメてくれる桜乃そら先生	固有名詞	nico-pixiv
 むげんのさるていり	無限の猿定理	固有名詞	nico-pixiv
@@ -113457,6 +113485,7 @@
 れごらんど	レゴランド	固有名詞	nico-pixiv
 れされさ	レサレサ	固有名詞	nico-pixiv
 れざぼあどっぐす	レザボア・ドッグス	固有名詞	nico-pixiv
+れざまりでもつらくないっ	レザマリでもつらくないっ!	固有名詞	nico-pixiv
 れざりおん	レザリオン	固有名詞	nico-pixiv
 れざーど	レザード	固有名詞	nico-pixiv
 れざーどゔぁれす	レザード・ヴァレス	固有名詞	nico-pixiv
@@ -115018,6 +115047,7 @@
 ろーたす	Lotus	アルファベット	nico-pixiv
 ろーたす	ロータス	固有名詞	nico-pixiv
 ろーたすかーず	ロータス・カーズ	固有名詞	nico-pixiv
+ろーたすらぶ	Lotus Love	アルファベット	nico-pixiv
 ろーたすらんど	ロータスランド	固有名詞	nico-pixiv
 ろーたりー	ロータリー	固有名詞	nico-pixiv
 ろーたりーえんじん	ロータリーエンジン	固有名詞	nico-pixiv
@@ -115551,6 +115581,7 @@
 わしるろまちぇんこ	ワシル・ロマチェンコ	固有名詞	nico-pixiv
 わしんとん	washington	アルファベット	nico-pixiv
 わしんとん	ワシントン	固有名詞	nico-pixiv
+わしんとんかいぐんぐんしゅくじょうやく	ワシントン海軍軍縮条約	固有名詞	nico-pixiv
 わしんとんこまんだーず	ワシントン・コマンダーズ	固有名詞	nico-pixiv
 わしんとんしゅう	ワシントン州	固有名詞	nico-pixiv
 わしんとんでぃーしー	ワシントンD.C.	固有名詞	nico-pixiv
