@@ -1,7 +1,7 @@
 # name: dic-nico-intersection-pixiv
 # description: ニコニコ大百科とピクシブ百科事典の共通部分の辞書
 # github: https://github.com/ncaq/dic-nico-intersection-pixiv
-# createdAt: 2026-08-19T09:02:25+0000
+# createdAt: 2026-08-20T11:42:06+0000
 # copying:
 # nicovideo: https://dic.nicovideo.jp/
 # pixiv: https://dic.pixiv.net/
@@ -8054,6 +8054,7 @@
 いせさくら	伊勢桜良	固有名詞	nico-pixiv
 いせざきいくほ	伊勢崎郁歩	固有名詞	nico-pixiv
 いせざきいじんちょう	伊勢佐木異人町	固有名詞	nico-pixiv
+いせざきちょうじゃまちえき	伊勢佐木長者町駅	固有名詞	nico-pixiv
 いせし	伊勢市	固有名詞	nico-pixiv
 いせしまらいなー	伊勢志摩ライナー	固有名詞	nico-pixiv
 いせしんくろう	伊勢新九郎	固有名詞	nico-pixiv
@@ -10310,6 +10311,7 @@
 いんむあんち	淫夢アンチ	固有名詞	nico-pixiv
 いんむえいぎょう	淫夢営業	固有名詞	nico-pixiv
 いんむおーるすたー	淫夢オールスター	固有名詞	nico-pixiv
+いんむきんぐ	INMU KING	アルファベット	nico-pixiv
 いんむくん	淫夢くん	固有名詞	nico-pixiv
 いんむごっこ	淫夢ごっこ	固有名詞	nico-pixiv
 いんむごろく	淫夢語録	固有名詞	nico-pixiv
@@ -19332,6 +19334,7 @@
 おんみょうてつ	陰陽鉄	固有名詞	nico-pixiv
 おんみょうのみやこ	陰陽ノ京	固有名詞	nico-pixiv
 おんみょーん	おんみょーん	固有名詞	nico-pixiv
+おんめい	音名	固有名詞	nico-pixiv
 おんもらきのきず	陰摩羅鬼の瑕	固有名詞	nico-pixiv
 おんゆあまーく	On Your Mark	アルファベット	nico-pixiv
 おんよみ	音読み	固有名詞	nico-pixiv
@@ -29504,6 +29507,7 @@
 ぎたどら	GITADORA	アルファベット	nico-pixiv
 ぎたどら	ギタドラ	固有名詞	nico-pixiv
 ぎたふり	ギタフリ	固有名詞	nico-pixiv
+ぎたらくる	ギタラクル	固有名詞	nico-pixiv
 ぎたりすと	ギタリスト	固有名詞	nico-pixiv
 ぎたるまん	ギタルマン	固有名詞	nico-pixiv
 ぎたー	guitar	アルファベット	nico-pixiv
@@ -35966,6 +35970,7 @@
 こおりのびしょう	氷の微笑	固有名詞	nico-pixiv
 こおりのようせい	氷の妖精	固有名詞	nico-pixiv
 こおりぴくみん	氷ピクミン	固有名詞	nico-pixiv
+こおりぶろ	氷風呂	固有名詞	nico-pixiv
 こおりやま	郡山	固有名詞	nico-pixiv
 こおりやまあき	郡山知姫	固有名詞	nico-pixiv
 こおりやまえき	郡山駅	固有名詞	nico-pixiv
@@ -38314,6 +38319,7 @@
 こーるみー	CALL ME	アルファベット	nico-pixiv
 こーれる	Corel	アルファベット	nico-pixiv
 こーれるどろー	CorelDRAW	アルファベット	nico-pixiv
+こーれーぐーす	こーれーぐーす	固有名詞	nico-pixiv
 こーん	こーん	固有名詞	nico-pixiv
 こーん	コーン	固有名詞	nico-pixiv
 こーんすねーく	コーンスネーク	固有名詞	nico-pixiv
@@ -40379,6 +40385,7 @@
 さくにゅう	搾乳	固有名詞	nico-pixiv
 さくはうきよのきみはなび	咲くは浮世の君花火	固有名詞	nico-pixiv
 さくひん	作品	固有名詞	nico-pixiv
+さくひんにつみはない	作品に罪はない	固有名詞	nico-pixiv
 さくびさくら	saku美saku楽	固有名詞	nico-pixiv
 さくぶん	作文	固有名詞	nico-pixiv
 さくま	さくま	固有名詞	nico-pixiv
@@ -52141,6 +52148,7 @@
 すたーぷらちな	スタープラチナ	固有名詞	nico-pixiv
 すたーぷらちなざわーるど	スタープラチナ・ザ・ワールド	固有名詞	nico-pixiv
 すたーべあ	すたーべあ!	固有名詞	nico-pixiv
+すたーべいだーおめがぐれんでぃおす	星輝兵 “Ω” グレンディオス	固有名詞	nico-pixiv
 すたーべいだーかおすぶれいかーどらごん	星輝兵 カオスブレイカー・ドラゴン	固有名詞	nico-pixiv
 すたーほーす	STARHORSE	アルファベット	nico-pixiv
 すたーほーす	スターホース	固有名詞	nico-pixiv
@@ -68991,6 +68999,7 @@
 とくまつちょうじろう	徳松長次郎	固有名詞	nico-pixiv
 とくまでゅあるぶんこ	徳間デュアル文庫	固有名詞	nico-pixiv
 とくまるかん	徳丸完	固有名詞	nico-pixiv
+とくまるしゅーご	トクマルシューゴ	固有名詞	nico-pixiv
 とくみつかずお	徳光和夫	固有名詞	nico-pixiv
 とくみつぱーきんぐえりあ	徳光pa	固有名詞	nico-pixiv
 とくむきかんねるふ	特務機関NERV	固有名詞	nico-pixiv
@@ -79188,6 +79197,7 @@
 はないあずさ	花井梓	固有名詞	nico-pixiv
 はないかだ	花筏	固有名詞	nico-pixiv
 はないみはる	花井美春	固有名詞	nico-pixiv
+はないみり	花井美理	固有名詞	nico-pixiv
 はないわかな	花岩香奈	固有名詞	nico-pixiv
 はなうがい	鼻うがい	固有名詞	nico-pixiv
 はなうきょうめいどたい	花右京メイド隊	固有名詞	nico-pixiv
@@ -82060,6 +82070,7 @@
 ばんどういるか	バンドウイルカ	固有名詞	nico-pixiv
 ばんどうえいじ	板東英二	固有名詞	nico-pixiv
 ばんどうし	坂東市	固有名詞	nico-pixiv
+ばんどうばしえき	阪東橋駅	固有名詞	nico-pixiv
 ばんどうまさあき	坂東正明	固有名詞	nico-pixiv
 ばんどうまりも	板東まりも	固有名詞	nico-pixiv
 ばんどおぶぶらざーす	バンド・オブ・ブラザース	固有名詞	nico-pixiv
@@ -83576,6 +83587,7 @@
 ひがしはらあき	東原亜希	固有名詞	nico-pixiv
 ひがしはらののみ	東原ののみ	固有名詞	nico-pixiv
 ひがしはんのうえき	東飯能駅	固有名詞	nico-pixiv
+ひがしひええき	東比恵駅	固有名詞	nico-pixiv
 ひがしひめじえき	東姫路駅	固有名詞	nico-pixiv
 ひがしひろしまえき	東広島駅	固有名詞	nico-pixiv
 ひがしひろしまし	東広島市	固有名詞	nico-pixiv
@@ -88316,6 +88328,7 @@
 ふじさき	藤崎	固有名詞	nico-pixiv
 ふじさきあやね	藤咲彩音	固有名詞	nico-pixiv
 ふじさきうさ	藤咲ウサ	固有名詞	nico-pixiv
+ふじさきえき	藤崎駅	固有名詞	nico-pixiv
 ふじさきしおり	藤崎詩織	固有名詞	nico-pixiv
 ふじさきちひろ	不二咲千尋	固有名詞	nico-pixiv
 ふじさきななこ	藤崎奈々子	固有名詞	nico-pixiv
@@ -94833,6 +94846,7 @@
 ぼっかでらべりた	ボッカデラベリタ	固有名詞	nico-pixiv
 ぼっかん	北韓	固有名詞	nico-pixiv
 ぼっき	勃起	固有名詞	nico-pixiv
+ぼっきおう	勃起王	固有名詞	nico-pixiv
 ぼっきでぃうむちんちんなぶりふぇるむ	ボッキディウム・チンチンナブリフェルム	固有名詞	nico-pixiv
 ぼっきふぜん	勃起不全	固有名詞	nico-pixiv
 ぼっくりん	ボックリン	固有名詞	nico-pixiv
@@ -102786,6 +102800,7 @@
 むろまちじだい	室町時代	固有名詞	nico-pixiv
 むろまちとうじ	室町十次	固有名詞	nico-pixiv
 むろまちばくふ	室町幕府	固有名詞	nico-pixiv
+むろみえき	室見駅	固有名詞	nico-pixiv
 むろみさん	むろみさん	固有名詞	nico-pixiv
 むろらん	室蘭	固有名詞	nico-pixiv
 むろらんえき	室蘭駅	固有名詞	nico-pixiv
@@ -113000,6 +113015,7 @@
 るーとゔぃひ	ルートヴィヒ	固有名詞	nico-pixiv
 るーとゔぃひゔぁんべーとーゔぇん	ルートヴィヒ・ヴァン・ベートーヴェン	固有名詞	nico-pixiv
 るーど	ルード	固有名詞	nico-pixiv
+るーどばすたー	ルードバスター	固有名詞	nico-pixiv
 るーどゔぃっひ	ルードヴィッヒ	固有名詞	nico-pixiv
 るーな	ルーナ	固有名詞	nico-pixiv
 るーならぶぐっど	ルーナ・ラブグッド	固有名詞	nico-pixiv
